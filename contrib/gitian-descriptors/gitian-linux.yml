@@ -1,5 +1,5 @@
 ---
-name: "paycoin"
+name: "Suck-a-Coin"
 suites:
 - "precise"
 architectures:
@@ -16,11 +16,11 @@ packages:
 - "libqt4-dev"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/paycoinfoundation/paycoin.git"
-  "dir": "paycoin"
+- "url": "https://github.com/Suck-a-Coinfoundation/Suck-a-Coin.git"
+  "dir": "Suck-a-Coin"
 files:
-- "paycoin-deps-linux32-gitian-r6.zip"
-- "paycoin-deps-linux64-gitian-r6.zip"
+- "Suck-a-Coin-deps-linux32-gitian-r6.zip"
+- "Suck-a-Coin-deps-linux64-gitian-r6.zip"
 - "boost-linux32-1.55.0-gitian-r1.zip"
 - "boost-linux64-1.55.0-gitian-r1.zip"
 script: |
@@ -35,30 +35,30 @@ script: |
   #
   mkdir -p $STAGING
   cd $STAGING
-  unzip ../build/paycoin-deps-linux${GBUILD_BITS}-gitian-r6.zip
+  unzip ../build/Suck-a-Coin-deps-linux${GBUILD_BITS}-gitian-r6.zip
   unzip ../build/boost-linux${GBUILD_BITS}-1.55.0-gitian-r1.zip
   cd ..
   #
-  cd $HOME/build/paycoin
-  git archive --format=tar -o paycoin.tar HEAD
+  cd $HOME/build/Suck-a-Coin
+  git archive --format=tar -o Suck-a-Coin.tar HEAD
   cp doc/README.md $OUTDIR
   cp COPYING $OUTDIR
-  DISTNAME=paycoin.tar
+  DISTNAME=Suck-a-Coin.tar
   #
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
 
-  qmake INCLUDEPATH="$STAGING/include" LIBS="-L$STAGING/lib" USE_QRCODE=1 RELEASE=1 BOOST_LIB_SUFFIX=-mt QMAKE_CXXFLAGS=-frandom-seed=paycoin QMAKE_LFLAGS=-frandom-seed=paycoin
+  qmake INCLUDEPATH="$STAGING/include" LIBS="-L$STAGING/lib" USE_QRCODE=1 RELEASE=1 BOOST_LIB_SUFFIX=-mt QMAKE_CXXFLAGS=-frandom-seed=Suck-a-Coin QMAKE_LFLAGS=-frandom-seed=Suck-a-Coin
   make $MAKEOPTS
-  install -s paycoin-qt $BINDIR
+  install -s Suck-a-Coin-qt $BINDIR
 
   cd src
-  make -f makefile.unix STATIC=1 $MAKEOPTS paycoind USE_UPNP=1 BDB_INCLUDE_PATH=$STAGING/include BDB_LIB_PATH=$STAGING/lib BOOST_LIB_SUFFIX=-mt DEBUGFLAGS=
-  install -s paycoind $BINDIR
+  make -f makefile.unix STATIC=1 $MAKEOPTS Suck-a-Coind USE_UPNP=1 BDB_INCLUDE_PATH=$STAGING/include BDB_LIB_PATH=$STAGING/lib BOOST_LIB_SUFFIX=-mt DEBUGFLAGS=
+  install -s Suck-a-Coind $BINDIR
 
   # sort distribution tar file and normalize user/group/mtime information for deterministic output
   mkdir -p $OUTDIR/src
   rm -rf $TEMPDIR
   mkdir -p $TEMPDIR
   cd $TEMPDIR
-  tar -xvf $HOME/build/paycoin/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME.gz
+  tar -xvf $HOME/build/Suck-a-Coin/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME.gz

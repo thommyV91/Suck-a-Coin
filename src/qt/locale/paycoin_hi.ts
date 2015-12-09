@@ -1,4 +1,4 @@
-<TS language="hi" version="2.0">
+﻿<TS language="hi" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
@@ -270,8 +270,8 @@
         <translation>व्यवहार:</translation>
     </message>
     <message>
-        <source>Paycoin version</source>
-        <translation>Paycoin संस्करण</translation>
+        <source>Suck-a-Coin version</source>
+        <translation>Suck-a-Coin संस्करण</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -330,8 +330,8 @@
         <translation>इस सहायता का सन्देश </translation>
     </message>
     <message>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>Suck-a-Coin</source>
+        <translation>Suck-a-Coin</translation>
     </message>
     </context>
 </TS>

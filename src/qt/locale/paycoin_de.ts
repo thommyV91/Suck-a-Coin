@@ -3,17 +3,17 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Paycoin</source>
-        <translation>Über Paycoin</translation>
+        <source>About Suck-a-Coin</source>
+        <translation>Über Suck-a-Coin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Paycoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Suck-a-Coin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Suck-a-Coin&lt;/b&gt; version</translation>
     </message>
     <message>
         <source>Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2011-2014 Peercoin Developers
-Copyright © 2014-2015 Paycoin Developers
+Copyright © 2014-2015 Suck-a-Coin Developers
 
 This is experimental software.
 
@@ -22,7 +22,7 @@ Distributed under the MIT software license, see the accompanying file COPYING or
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (https://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>Copyright © 2009-2012 Die Bitcoin-Entwickler
 Copyright © 2011-2014 Die Peercoin-Entwickler
-Copyright © 2014-2015 Die Paycoin-Entwickler
+Copyright © 2014-2015 Die Suck-a-Coin-Entwickler
 
 Dies ist experimentelle Software.
 
@@ -38,8 +38,8 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
         <translation>Adressbuch</translation>
     </message>
     <message>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dies sind Ihre Paycoin-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your Suck-a-Coin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dies sind Ihre Suck-a-Coin-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
@@ -164,14 +164,14 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
         <translation>Verschlüsselung der Brieftasche fehlgeschlagen</translation>
     </message>
     <message>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PAYCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Suck-a-CoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>WARNUNG: Wenn Sie Ihre Wallet verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;ALLE IHRE PAYCOIN VERLIEREN&lt;/b&gt;!
+        <translation>WARNUNG: Wenn Sie Ihre Wallet verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;ALLE IHRE Suck-a-Coin VERLIEREN&lt;/b&gt;!
 Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl Ihrer Paycoins durch Schadprogramme schützt, die Ihren Computer befällt.</translation>
+        <source>Suck-a-Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Suck-a-Coins from being stolen by malware infecting your computer.</source>
+        <translation>Suck-a-Coin wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl Ihrer Suck-a-Coins durch Schadprogramme schützt, die Ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -226,7 +226,7 @@ Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation
     </message>
     <message>
         <source>&amp;Receive coins</source>
-        <translation>Paycoins &amp;empfangen</translation>
+        <translation>Suck-a-Coins &amp;empfangen</translation>
     </message>
     <message>
         <source>Show the list of addresses for receiving payments</source>
@@ -234,7 +234,7 @@ Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation
     </message>
     <message>
         <source>&amp;Send coins</source>
-        <translation>Paycoins &amp;überweisen</translation>
+        <translation>Suck-a-Coins &amp;überweisen</translation>
     </message>
     <message>
         <source>Prove you control an address</source>
@@ -249,8 +249,8 @@ Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation
         <translation>Anwendung beenden</translation>
     </message>
     <message>
-        <source>Show information about Paycoin</source>
-        <translation>Informationen über Paycoin anzeigen</translation>
+        <source>Show information about Suck-a-Coin</source>
+        <translation>Informationen über Suck-a-Coin anzeigen</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -282,7 +282,7 @@ Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation
     </message>
     <message>
         <source>Unlock wallet only for minting. Sending coins will still require the passphrase.</source>
-        <translation>Brieftasche nur zum Prägen entsperren. Das Versenden von Paycoins wird weiterhin die Passphrase erfordern. </translation>
+        <translation>Brieftasche nur zum Prägen entsperren. Das Versenden von Suck-a-Coins wird weiterhin die Passphrase erfordern. </translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -325,32 +325,32 @@ Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation
         <translation>[Testnetz]</translation>
     </message>
     <message>
-        <source>Paycoin Wallet</source>
-        <translation>Paycoin Brieftasche</translation>
+        <source>Suck-a-Coin Wallet</source>
+        <translation>Suck-a-Coin Brieftasche</translation>
     </message>
     <message>
-        <source>Send coins to a Paycoin address</source>
-        <translation>Münzen an eine Paycoin-Adresse senden</translation>
+        <source>Send coins to a Suck-a-Coin address</source>
+        <translation>Münzen an eine Suck-a-Coin-Adresse senden</translation>
     </message>
     <message>
-        <source>&amp;About Paycoin</source>
-        <translation>Über Paycoin</translation>
+        <source>&amp;About Suck-a-Coin</source>
+        <translation>Über Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Paycoin</source>
-        <translation>Die Konfiguration von Paycoin bearbeiten</translation>
+        <source>Modify configuration options for Suck-a-Coin</source>
+        <translation>Die Konfiguration von Suck-a-Coin bearbeiten</translation>
     </message>
     <message>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>&amp;Paycoin anzeigen/verstecken</translation>
+        <source>Show/Hide &amp;Suck-a-Coin</source>
+        <translation>&amp;Suck-a-Coin anzeigen/verstecken</translation>
     </message>
     <message>
-        <source>Show or hide the Paycoin window</source>
-        <translation>Zeige oder verstecke das Paycoin Fenster</translation>
+        <source>Show or hide the Suck-a-Coin window</source>
+        <translation>Zeige oder verstecke das Suck-a-Coin Fenster</translation>
     </message>
     <message>
-        <source>Paycoin client</source>
-        <translation>Paycoin-Client</translation>
+        <source>Suck-a-Coin client</source>
+        <translation>Suck-a-Coin-Client</translation>
     </message>
     <message>
         <source>p-qt</source>
@@ -424,8 +424,8 @@ Adresse: %4</translation>
         <translation>Fehler beim versuch die Brieftaschendaten am neuen Ort zu speichern. </translation>
     </message>
     <message>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>Ein fataler Fehler trat auf. Paycoin kann nicht mehr sicher fortfahren und wird sich beenden. </translation>
+        <source>A fatal error occurred. Suck-a-Coin can no longer continue safely and will quit.</source>
+        <translation>Ein fataler Fehler trat auf. Suck-a-Coin kann nicht mehr sicher fortfahren und wird sich beenden. </translation>
     </message>
 </context>
 <context>
@@ -615,15 +615,15 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von Paycoins angezeigt werden soll.</translation>
+        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von Suck-a-Coins angezeigt werden soll.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
         <translation>Adressen im Transaktionsverlauf &amp;anzeigen</translation>
     </message>
     <message>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
-        <translation>Legt fest, ob Paycoin-Adressen im Transaktionsverlauf angezeigt werden.</translation>
+        <source>Whether to show Suck-a-Coin addresses in the transaction list</source>
+        <translation>Legt fest, ob Suck-a-Coin-Adressen im Transaktionsverlauf angezeigt werden.</translation>
     </message>
     <message>
         <source>Display coin control features (experts only!)</source>
@@ -677,8 +677,8 @@ Adresse: %4</translation>
         <translation>Die eingegebene Adresse "%1" befindet sich bereits im Adressbuch.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Paycoin address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige Paycoin-Adresse.</translation>
+        <source>The entered address "%1" is not a valid Suck-a-Coin address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige Suck-a-Coin-Adresse.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -942,15 +942,15 @@ Adresse: %4</translation>
         <translation>Konsole zurücksetzen</translation>
     </message>
     <message>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Willkommen in der Paycoin-RPC-Konsole. &lt;br&gt; Nutze Pfeiltaste hoch und runter, um den Verlauf durchzublättern und &lt;b&gt;Strg-L&lt;/b&gt;, um die Konsole zurückzusetzen. &lt;br&gt;  Bitte &lt;b&gt;help&lt;/b&gt; eingeben, um eine Übersicht verfügbarer Befehle zu erhalten.</translation>
+        <source>Welcome to the Suck-a-Coin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Willkommen in der Suck-a-Coin-RPC-Konsole. &lt;br&gt; Nutze Pfeiltaste hoch und runter, um den Verlauf durchzublättern und &lt;b&gt;Strg-L&lt;/b&gt;, um die Konsole zurückzusetzen. &lt;br&gt;  Bitte &lt;b&gt;help&lt;/b&gt; eingeben, um eine Übersicht verfügbarer Befehle zu erhalten.</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Paycoins überweisen</translation>
+        <translation>Suck-a-Coins überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1101,8 +1101,8 @@ Adresse: %4</translation>
         <translation>Der zu zahlende Betrag muss mindestens einen Cent betragen (0.01).</translation>
     </message>
     <message>
-        <source>Warning: Invalid Paycoin address</source>
-        <translation>Warnung: Ungültige Paycoin-Adresse</translation>
+        <source>Warning: Invalid Suck-a-Coin address</source>
+        <translation>Warnung: Ungültige Suck-a-Coin-Adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1117,8 +1117,8 @@ Adresse: %4</translation>
         <translation>Der angegebene Betrag übersteigt Ihren Kontostand.</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Paycoin-Addresse eingeben</translation>
+        <source>Enter a Suck-a-Coin address</source>
+        <translation>Suck-a-Coin-Addresse eingeben</translation>
     </message>
     <message>
         <source>Error: Transaction creation failed  </source>
@@ -1126,7 +1126,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige Paycoins aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die Paycoins dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige Suck-a-Coins aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die Suck-a-Coins dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
     </message>
 </context>
 <context>
@@ -1223,8 +1223,8 @@ Adresse: %4</translation>
         <translation>Aktuelle Signatur in die Zwischenablage kopieren</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Paycoin address</source>
-        <translation>Die Nachricht signieren, um den Besitz dieser Paycoin-Adresse zu beweisen</translation>
+        <source>Sign the message to prove you own this Suck-a-Coin address</source>
+        <translation>Die Nachricht signieren, um den Besitz dieser Suck-a-Coin-Adresse zu beweisen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1251,8 +1251,8 @@ Adresse: %4</translation>
         <translation>Die Adresse mit der die Nachricht signiert wurde</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen Paycoin-Adresse signiert wurde</translation>
+        <source>Verify the message to ensure it was signed with the specified Suck-a-Coin address</source>
+        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen Suck-a-Coin-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1271,8 +1271,8 @@ Adresse: %4</translation>
         <translation>Geben Sie die Signatur der Nachricht ein</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Paycoin-Addresse eingeben</translation>
+        <source>Enter a Suck-a-Coin address</source>
+        <translation>Suck-a-Coin-Addresse eingeben</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1623,16 +1623,16 @@ Adresse: %4</translation>
         <translation>Verwendung:</translation>
     </message>
     <message>
-        <source>Unable to bind to port %d on this computer.  Paycoin is probably already running.</source>
-        <translation>Kann Port %d auf diesem Computer nicht binden. Paycoin läuft wahrscheinlich bereits. </translation>
+        <source>Unable to bind to port %d on this computer.  Suck-a-Coin is probably already running.</source>
+        <translation>Kann Port %d auf diesem Computer nicht binden. Suck-a-Coin läuft wahrscheinlich bereits. </translation>
     </message>
     <message>
-        <source>Paycoin version</source>
-        <translation>Paycoin Version</translation>
+        <source>Suck-a-Coin version</source>
+        <translation>Suck-a-Coin Version</translation>
     </message>
     <message>
-        <source>Send command to -server or paycoind</source>
-        <translation>Sende Befehl an -server oder paycoind</translation>
+        <source>Send command to -server or Suck-a-Coind</source>
+        <translation>Sende Befehl an -server oder Suck-a-Coind</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -1647,20 +1647,20 @@ Adresse: %4</translation>
         <translation>Einstellungen:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: paycoin.conf)</source>
-        <translation>Konfigurations-Datei angeben (Standard: paycoin.conf)</translation>
+        <source>Specify configuration file (default: Suck-a-Coin.conf)</source>
+        <translation>Konfigurations-Datei angeben (Standard: Suck-a-Coin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>PID-Datei angeben (Standard: paycoind.pid)</translation>
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>PID-Datei angeben (Standard: Suck-a-Coind.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>
-        <translation>Paycoins generieren</translation>
+        <translation>Suck-a-Coins generieren</translation>
     </message>
     <message>
         <source>Don't generate coins</source>
-        <translation>Keine Paycoins generieren</translation>
+        <translation>Keine Suck-a-Coins generieren</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -1856,24 +1856,24 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Benutzung:</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>Datenverzeichnis %s kann nicht gesperrt werden, da Paycoin wahrscheinlich bereits gestartet wurde.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Suck-a-Coin is probably already running.</source>
+        <translation>Datenverzeichnis %s kann nicht gesperrt werden, da Suck-a-Coin wahrscheinlich bereits gestartet wurde.</translation>
     </message>
     <message>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>Suck-a-Coin</source>
+        <translation>Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>Fehler beim Laden von wallet.dat: Brieftasche benötigt neuere Version von Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Suck-a-Coin</source>
+        <translation>Fehler beim Laden von wallet.dat: Brieftasche benötigt neuere Version von Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>Brieftasche musste neu geschrieben werden: starten Sie Paycoin zur Fertigstellung neu</translation>
+        <source>Wallet needed to be rewritten: restart Suck-a-Coin to complete</source>
+        <translation>Brieftasche musste neu geschrieben werden: starten Sie Suck-a-Coin zur Fertigstellung neu</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da Paycoin ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
+        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Suck-a-Coin will not work properly.</source>
+        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da Suck-a-Coin ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -1977,7 +1977,7 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     </message>
     <message>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige Paycoins aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die Paycoins dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige Suck-a-Coins aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die Suck-a-Coins dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
     </message>
     <message>
         <source>Invalid amount</source>

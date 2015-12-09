@@ -948,8 +948,8 @@ Dirección: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Especifica archivo pid (predeterminado: Paycoin.pid)
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>Especifica archivo pid (predeterminado: Suck-a-Coin.pid)
 </translation>
     </message>
     <message>

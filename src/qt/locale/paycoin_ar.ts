@@ -370,7 +370,7 @@
         <translation>الاستخدام:</translation>
     </message>
     <message>
-        <source>Paycoin version</source>
+        <source>Suck-a-Coin version</source>
         <translation>نسخة بِيريُنِتِي</translation>
     </message>
     <message>
@@ -482,7 +482,7 @@
         <translation>اقبل سطر الأوامر وأوامر JSON-RPC</translation>
     </message>
     <message>
-        <source>Paycoin</source>
+        <source>Suck-a-Coin</source>
         <translation>بِيريُنِتِي</translation>
     </message>
     </context>

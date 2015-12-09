@@ -1,3 +1,3 @@
-paycoin-qt usr/bin
-debian/paycoin-qt.desktop usr/share/applications
-debian/paycoin-qt.protocol usr/share/kde4/services
+Suck-a-Coin-qt usr/bin
+debian/Suck-a-Coin-qt.desktop usr/share/applications
+debian/Suck-a-Coin-qt.protocol usr/share/kde4/services

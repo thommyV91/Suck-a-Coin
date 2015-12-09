@@ -5,19 +5,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Paycoin</source>
+        <source>About Suck-a-Coin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Suck-a-Coin&lt;/b&gt; version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
         <source>Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2011-2014 Peercoin Developers
-Copyright © 2014-2015 Paycoin Developers
+Copyright © 2014-2015 Suck-a-Coin Developers
 
 This is experimental software.
 
@@ -36,7 +36,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Suck-a-Coin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -247,13 +247,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="101"/>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PAYCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Suck-a-CoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
+        <source>Suck-a-Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Suck-a-Coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -364,7 +364,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="270"/>
-        <source>Show information about Paycoin</source>
+        <source>Show information about Suck-a-Coin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -469,12 +469,12 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="78"/>
-        <source>Paycoin Wallet</source>
+        <source>Suck-a-Coin Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
-        <source>Send coins to a Paycoin address</source>
+        <source>Send coins to a Suck-a-Coin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -489,22 +489,22 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="269"/>
-        <source>&amp;About Paycoin</source>
+        <source>&amp;About Suck-a-Coin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="276"/>
-        <source>Modify configuration options for Paycoin</source>
+        <source>Modify configuration options for Suck-a-Coin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="278"/>
-        <source>Show/Hide &amp;Paycoin</source>
+        <source>Show/Hide &amp;Suck-a-Coin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="279"/>
-        <source>Show or hide the Paycoin window</source>
+        <source>Show or hide the Suck-a-Coin window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -524,7 +524,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="433"/>
-        <source>Paycoin client</source>
+        <source>Suck-a-Coin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -534,7 +534,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="526"/>
-        <source>%n active connection(s) to Paycoin network</source>
+        <source>%n active connection(s) to Suck-a-Coin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -666,7 +666,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="131"/>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Suck-a-Coin can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -953,7 +953,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="258"/>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Paycoin.</source>
+        <source>The user interface language can be set here. This setting will only take effect after restarting Suck-a-Coin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -973,7 +973,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="280"/>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
+        <source>Whether to show Suck-a-Coin addresses in the transaction list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -993,7 +993,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
-        <source>This setting will take effect after restarting Paycoin.</source>
+        <source>This setting will take effect after restarting Suck-a-Coin.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1051,7 +1051,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Paycoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Suck-a-Coin address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1598,7 +1598,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="353"/>
-        <source>Automatically open the Paycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Suck-a-Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1685,7 +1685,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="234"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Paycoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Suck-a-Coin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1777,7 +1777,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Paycoin debug window</source>
+        <source>Suck-a-Coin debug window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1854,7 +1854,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="235"/>
-        <source>Open the Paycoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <source>Open the Suck-a-Coin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1889,7 +1889,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="319"/>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <source>Welcome to the Suck-a-Coin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2118,7 +2118,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="457"/>
-        <source>Warning: Invalid Paycoin address</source>
+        <source>Warning: Invalid Suck-a-Coin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2138,7 +2138,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="36"/>
-        <source>Enter a Paycoin address</source>
+        <source>Enter a Suck-a-Coin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2187,7 +2187,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="102"/>
-        <source>Enter a Paycoin address (e.g. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Suck-a-Coin address (e.g. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2277,7 +2277,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="152"/>
-        <source>Sign the message to prove you own this Paycoin address</source>
+        <source>Sign the message to prove you own this Suck-a-Coin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2313,7 +2313,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="295"/>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Suck-a-Coin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2339,7 +2339,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a Paycoin address</source>
+        <source>Enter a Suck-a-Coin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2413,7 +2413,7 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="22"/>
-        <source>The Paycoin developers</source>
+        <source>The Suck-a-Coin developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2953,12 +2953,12 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="315"/>
-        <source>&amp;Start Paycoin on window system startup</source>
+        <source>&amp;Start Suck-a-Coin on window system startup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="316"/>
-        <source>Automatically start Paycoin after the computer is turned on</source>
+        <source>Automatically start Suck-a-Coin after the computer is turned on</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2996,17 +2996,17 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Paycoin is probably already running.</source>
+        <source>Unable to bind to port %d on this computer.  Suck-a-Coin is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Paycoin version</source>
+        <source>Suck-a-Coin version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="14"/>
-        <source>Send command to -server or paycoind</source>
+        <source>Send command to -server or Suck-a-Coind</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3026,12 +3026,12 @@ This label turns red if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="18"/>
-        <source>Specify configuration file (default: paycoin.conf)</source>
+        <source>Specify configuration file (default: Suck-a-Coin.conf)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="19"/>
-        <source>Specify pid file (default: paycoind.pid)</source>
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3287,22 +3287,22 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  Suck-a-Coin is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Paycoin</source>
+        <source>Suck-a-Coin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Suck-a-Coin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Suck-a-Coin to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3310,7 +3310,7 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=paycoinrpc
+rpcuser=Suck-a-Coinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -3319,7 +3319,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Suck-a-Coin will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

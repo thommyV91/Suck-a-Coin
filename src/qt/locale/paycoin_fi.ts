@@ -184,15 +184,15 @@
     </message>
     <message>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Paycoinien vastaanottaminen</translation>
+        <translation>&amp;Suck-a-Coinien vastaanottaminen</translation>
     </message>
     <message>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Näytä Paycoinien vastaanottamiseen käytetyt osoitteet</translation>
+        <translation>Näytä Suck-a-Coinien vastaanottamiseen käytetyt osoitteet</translation>
     </message>
     <message>
         <source>&amp;Send coins</source>
-        <translation>&amp;Lähetä Paycoineja</translation>
+        <translation>&amp;Lähetä Suck-a-Coineja</translation>
     </message>
     <message>
         <source>Prove you control an address</source>
@@ -551,11 +551,11 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>Your current balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Paycoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Suck-a-Coinien määrä</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Niiden saapuvien rahansiirtojen määrä, joita Paycoin-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
+        <translation>Niiden saapuvien rahansiirtojen määrä, joita Suck-a-Coin-verkko ei vielä ole ehtinyt vahvistaa ja siten eivät vielä näy saldossa.</translation>
     </message>
     <message>
         <source>Total number of transactions in wallet</source>
@@ -600,7 +600,7 @@ Osoite: %4</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Paycoineja</translation>
+        <translation>Lähetä Suck-a-Coineja</translation>
     </message>
     <message>
         <source>0</source>
@@ -652,7 +652,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Hyväksy Paycoinien lähettäminen</translation>
+        <translation>Hyväksy Suck-a-Coinien lähettäminen</translation>
     </message>
     <message>
         <source>Are you sure you want to send %1?</source>
@@ -676,7 +676,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Virhe: Rahansiirto hylättiin.  Tämä voi tapahtua jos jotkin Paycoineistasi on jo käytetty, esimerkiksi jos olet käyttänyt kopiota wallet.dat-lompakkotiedostosta ja Paycoinit on merkitty käytetyksi vain kopiossa.</translation>
+        <translation>Virhe: Rahansiirto hylättiin.  Tämä voi tapahtua jos jotkin Suck-a-Coineistasi on jo käytetty, esimerkiksi jos olet käyttänyt kopiota wallet.dat-lompakkotiedostosta ja Suck-a-Coinit on merkitty käytetyksi vain kopiossa.</translation>
     </message>
 </context>
 <context>
@@ -886,7 +886,7 @@ Osoite: %4</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Rahansiirron kohteen Paycoin-osoite</translation>
+        <translation>Rahansiirron kohteen Suck-a-Coin-osoite</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -1053,8 +1053,8 @@ Osoite: %4</translation>
         <translation>Asetukset:</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Määritä pid-tiedosto (oletus: Paycoin.pid)</translation>
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>Määritä pid-tiedosto (oletus: Suck-a-Coin.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>
@@ -1251,7 +1251,7 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Virhe: Rahansiirto hylättiin.  Tämä voi tapahtua jos jotkin Paycoineistasi on jo käytetty, esimerkiksi jos olet käyttänyt kopiota wallet.dat-lompakkotiedostosta ja Paycoinit on merkitty käytetyksi vain kopiossa.</translation>
+        <translation>Virhe: Rahansiirto hylättiin.  Tämä voi tapahtua jos jotkin Suck-a-Coineistasi on jo käytetty, esimerkiksi jos olet käyttänyt kopiota wallet.dat-lompakkotiedostosta ja Suck-a-Coinit on merkitty käytetyksi vain kopiossa.</translation>
     </message>
     </context>
 </TS>

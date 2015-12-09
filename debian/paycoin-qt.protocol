@@ -1,6 +1,6 @@
 [Protocol]
-exec=paycoin-qt '%u'
-protocol=paycoin
+exec=Suck-a-Coin-qt '%u'
+protocol=Suck-a-Coin
 input=none
 output=none
 helper=true

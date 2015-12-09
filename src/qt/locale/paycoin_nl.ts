@@ -3,17 +3,17 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Paycoin</source>
-        <translation>Over Paycoin</translation>
+        <source>About Suck-a-Coin</source>
+        <translation>Over Suck-a-Coin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Paycoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;b&gt;Suck-a-Coin&lt;/b&gt; version</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Suck-a-Coin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2011-2014 Peercoin Developers
-Copyright © 2014-2015 Paycoin Developers
+Copyright © 2014-2015 Suck-a-Coin Developers
 
 This is experimental software.
 
@@ -22,7 +22,7 @@ Distributed under the MIT software license, see the accompanying file COPYING or
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (https://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>Copyright  © 2009-2014 Bitcoin ontwikkelaars
 Copyright © 2011-2014 Peercoin Developers
-Copyright © 2014-2015 Paycoin Developers
+Copyright © 2014-2015 Suck-a-Coin Developers
 Dit is experimentele code.
 Verspreiding onder de MIT software licentie, zie de meegeleverde bestand COPYING of http://www.opensource.org/licenses/mit-license.php.
 Dit product bevat code ontwikkeld door het OpenSSL project voor het gebruik in het OpenSSL raamwerk (https://www.openssl.org/) en cryptografische code geschreven door Eric Young (eay@cryptsoft.com) en UPnP code geschreven door Thomas Bernard.</translation>
@@ -35,8 +35,8 @@ Dit product bevat code ontwikkeld door het OpenSSL project voor het gebruik in h
         <translation>Adresboek</translation>
     </message>
     <message>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn je Paycoin adressen om bedragen te ontvangen. Je kan een verschillend adres opgeven voor iedere geaddresseerde zodat je kan achterhalen wie jouw betaalt.</translation>
+        <source>These are your Suck-a-Coin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn je Suck-a-Coin adressen om bedragen te ontvangen. Je kan een verschillend adres opgeven voor iedere geaddresseerde zodat je kan achterhalen wie jouw betaalt.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
@@ -161,14 +161,14 @@ Dit product bevat code ontwikkeld door het OpenSSL project voor het gebruik in h
         <translation>Portemonneeversleuteling mislukt</translation>
     </message>
     <message>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PAYCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Suck-a-CoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>WAARSCHUWING: Indien je de portemonnee versleutelt en je wachtwoordzin verliest, dan verlies je &lt;b&gt; AL JE PAYCOINS&lt;/b&gt;!
+        <translation>WAARSCHUWING: Indien je de portemonnee versleutelt en je wachtwoordzin verliest, dan verlies je &lt;b&gt; AL JE Suck-a-CoinS&lt;/b&gt;!
 Weet je zeker dat je de portemonee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin sluit nu af om het versleutelings proces te beeindigen. Onthoud dat het versleutelen van de portemonnee je Paycoins niet volledig kan beschermen tegen schadelijke software op een geinfecteerde computer</translation>
+        <source>Suck-a-Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Suck-a-Coins from being stolen by malware infecting your computer.</source>
+        <translation>Suck-a-Coin sluit nu af om het versleutelings proces te beeindigen. Onthoud dat het versleutelen van de portemonnee je Suck-a-Coins niet volledig kan beschermen tegen schadelijke software op een geinfecteerde computer</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -246,8 +246,8 @@ Weet je zeker dat je de portemonee wilt versleutelen?</translation>
         <translation>Programma afsluiten</translation>
     </message>
     <message>
-        <source>Show information about Paycoin</source>
-        <translation>Toon informatie over Paycoin</translation>
+        <source>Show information about Suck-a-Coin</source>
+        <translation>Toon informatie over Suck-a-Coin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -322,32 +322,32 @@ Weet je zeker dat je de portemonee wilt versleutelen?</translation>
         <translation>[testnetwerk]</translation>
     </message>
     <message>
-        <source>Paycoin Wallet</source>
-        <translation>Paycoin portemonnee</translation>
+        <source>Suck-a-Coin Wallet</source>
+        <translation>Suck-a-Coin portemonnee</translation>
     </message>
     <message>
-        <source>Send coins to a Paycoin address</source>
-        <translation>Zend munten naar een Paycoin adres</translation>
+        <source>Send coins to a Suck-a-Coin address</source>
+        <translation>Zend munten naar een Suck-a-Coin adres</translation>
     </message>
     <message>
-        <source>&amp;About Paycoin</source>
-        <translation>Over Paycoin</translation>
+        <source>&amp;About Suck-a-Coin</source>
+        <translation>Over Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Paycoin</source>
-        <translation>Wijzig configuratie opties voor Paycoin</translation>
+        <source>Modify configuration options for Suck-a-Coin</source>
+        <translation>Wijzig configuratie opties voor Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>Toon/Verberg &amp;Paycoin</translation>
+        <source>Show/Hide &amp;Suck-a-Coin</source>
+        <translation>Toon/Verberg &amp;Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Show or hide the Paycoin window</source>
-        <translation>Toon of verberg het Paycoin scherm</translation>
+        <source>Show or hide the Suck-a-Coin window</source>
+        <translation>Toon of verberg het Suck-a-Coin scherm</translation>
     </message>
     <message>
-        <source>Paycoin client</source>
-        <translation>Paycoin client</translation>
+        <source>Suck-a-Coin client</source>
+        <translation>Suck-a-Coin client</translation>
     </message>
     <message>
         <source>p-qt</source>
@@ -422,8 +422,8 @@ Adres: %4
         <translation>Er is een fout opgetreden bij het wegschrijven van de portemonnee-data naar de nieuwe locatie.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout heeft plaatsgevonden. Paycoin kan niet langer veilig doorgaan en zal afsluiten.</translation>
+        <source>A fatal error occurred. Suck-a-Coin can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout heeft plaatsgevonden. Suck-a-Coin kan niet langer veilig doorgaan en zal afsluiten.</translation>
     </message>
 </context>
 <context>
@@ -620,8 +620,8 @@ Adres: %4
         <translation>Toon adressen in transactielijst</translation>
     </message>
     <message>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
-        <translation>Toon Paycoinadressen in transactielijst</translation>
+        <source>Whether to show Suck-a-Coin addresses in the transaction list</source>
+        <translation>Toon Suck-a-Coinadressen in transactielijst</translation>
     </message>
     <message>
         <source>Display coin control features (experts only!)</source>
@@ -675,8 +675,8 @@ Adres: %4
         <translation>Het opgegeven adres "%1" bestaat al in uw adresboek.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Paycoin address.</source>
-        <translation>Het ingevoerde adres "%1" is geen geldig Paycoin adres.</translation>
+        <source>The entered address "%1" is not a valid Suck-a-Coin address.</source>
+        <translation>Het ingevoerde adres "%1" is geen geldig Suck-a-Coin adres.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -940,8 +940,8 @@ Adres: %4
         <translation>Console opschonen</translation>
     </message>
     <message>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Welkom bij de Paycoin RPC console. &lt;br&gt;Gebruik pijltjes naar boven en naar beneden om de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm te wissen.&lt;br&gt;Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht met commandos.</translation>
+        <source>Welcome to the Suck-a-Coin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Welkom bij de Suck-a-Coin RPC console. &lt;br&gt;Gebruik pijltjes naar boven en naar beneden om de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm te wissen.&lt;br&gt;Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht met commandos.</translation>
     </message>
 </context>
 <context>
@@ -1099,8 +1099,8 @@ Adres: %4
         <translation>Het te betalen bedrag moet minimaal een cent zijn (0.01).</translation>
     </message>
     <message>
-        <source>Warning: Invalid Paycoin address</source>
-        <translation>Waarschuwing: Ongeldig Paycoin adres</translation>
+        <source>Warning: Invalid Suck-a-Coin address</source>
+        <translation>Waarschuwing: Ongeldig Suck-a-Coin adres</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1115,8 +1115,8 @@ Adres: %4
         <translation>Bedrag overschrijdt uw huidige saldo</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Voer een Paycoin adres in</translation>
+        <source>Enter a Suck-a-Coin address</source>
+        <translation>Voer een Suck-a-Coin adres in</translation>
     </message>
     <message>
         <source>Error: Transaction creation failed  </source>
@@ -1221,8 +1221,8 @@ Adres: %4
         <translation>Kopieer de huidige onderteking naar het systeem klembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Paycoin address</source>
-        <translation>Bewijs dat je dit Paycoin adres bezit door het te ondertekenen </translation>
+        <source>Sign the message to prove you own this Suck-a-Coin address</source>
+        <translation>Bewijs dat je dit Suck-a-Coin adres bezit door het te ondertekenen </translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1249,8 +1249,8 @@ Adres: %4
         <translation>Het adres waarmee het bericht getekend was</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>Verifieer het bericht om vast te stellen dat het bericht ondertekend was met het gespecificeerde Paycoin adres</translation>
+        <source>Verify the message to ensure it was signed with the specified Suck-a-Coin address</source>
+        <translation>Verifieer het bericht om vast te stellen dat het bericht ondertekend was met het gespecificeerde Suck-a-Coin adres</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1269,8 +1269,8 @@ Adres: %4
         <translation>Voer de ondertekening in voor het bericht</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Voer een Paycoin adres in</translation>
+        <source>Enter a Suck-a-Coin address</source>
+        <translation>Voer een Suck-a-Coin adres in</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1621,16 +1621,16 @@ Adres: %4
         <translation>Gebruik:</translation>
     </message>
     <message>
-        <source>Unable to bind to port %d on this computer.  Paycoin is probably already running.</source>
-        <translation>Onmogelijk om poort %d te verbinden op deze computer. Paycoin is mogelijk al eerder opgestart.</translation>
+        <source>Unable to bind to port %d on this computer.  Suck-a-Coin is probably already running.</source>
+        <translation>Onmogelijk om poort %d te verbinden op deze computer. Suck-a-Coin is mogelijk al eerder opgestart.</translation>
     </message>
     <message>
-        <source>Paycoin version</source>
-        <translation>Paycoin versie</translation>
+        <source>Suck-a-Coin version</source>
+        <translation>Suck-a-Coin versie</translation>
     </message>
     <message>
-        <source>Send command to -server or paycoind</source>
-        <translation>Zend commando naar -server of paycoind</translation>
+        <source>Send command to -server or Suck-a-Coind</source>
+        <translation>Zend commando naar -server of Suck-a-Coind</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -1648,12 +1648,12 @@ Adres: %4
 </translation>
     </message>
     <message>
-        <source>Specify configuration file (default: paycoin.conf)</source>
-        <translation>Configuratiebestand specificeren (standaard: paycoin.conf)</translation>
+        <source>Specify configuration file (default: Suck-a-Coin.conf)</source>
+        <translation>Configuratiebestand specificeren (standaard: Suck-a-Coin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Specifieer pid-bestand (standaard: paycoind.pid)
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>Specifieer pid-bestand (standaard: Suck-a-Coind.pid)
 </translation>
     </message>
     <message>
@@ -1877,24 +1877,24 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Gebruik</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>Blokkeren van data folder %s is niet gelukt. Paycoin is mogelijk al opgestart.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Suck-a-Coin is probably already running.</source>
+        <translation>Blokkeren van data folder %s is niet gelukt. Suck-a-Coin is mogelijk al opgestart.</translation>
     </message>
     <message>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>Suck-a-Coin</source>
+        <translation>Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>Fout geconstateerd bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Suck-a-Coin</source>
+        <translation>Fout geconstateerd bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>Portemonnee dient opnieuw bewerkt te worden: start Paycoin opnieuw op om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Suck-a-Coin to complete</source>
+        <translation>Portemonnee dient opnieuw bewerkt te worden: start Suck-a-Coin opnieuw op om te voltooien</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>Waarschuwing: controleer of de datum en tijd op uw computer correct zijn. Indien uw klok verkeerd staat, zal Paycoin niet goed werken</translation>
+        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Suck-a-Coin will not work properly.</source>
+        <translation>Waarschuwing: controleer of de datum en tijd op uw computer correct zijn. Indien uw klok verkeerd staat, zal Suck-a-Coin niet goed werken</translation>
     </message>
     <message>
         <source>Loading addresses...</source>

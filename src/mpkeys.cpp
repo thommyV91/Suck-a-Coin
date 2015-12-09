@@ -528,7 +528,7 @@ void CPrimeNodeDB::WriteMicroPrimeDB() {
     WriteMicroPrimeAddr(std::string("PSYiFv6AxUm1b5ihoNLBeBhqeFreAhwuev"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PQ13EcZL7ukQsQSEAaR3UXCMsb7DLCTvWn"), (int64)16000);
     WriteMicroPrimeAddr(std::string("PFPHe14gvQ6yzj1RCAXYQMXoa9pwNjGhVP"), (int64)1000);
-    WriteMicroPrimeAddr(std::string("PNQxPC2W2KKv2AAKHoSxZ9xE5aMdW67J24"), (int64)1000);
+    WriteMicroPrimeAddr(std::string("PNQSUCK2W2KKv2AAKHoSxZ9xE5aMdW67J24"), (int64)1000);
     WriteMicroPrimeAddr(std::string("P8yK7MqJhf2Gc4EFMKrVqzVVgoJqLrmcNz"), (int64)4000);
     WriteMicroPrimeAddr(std::string("PUEVTp23NbtYWFbDLsd3KmnMCs2fXy2jvV"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PDSZuPwfbLqisTqVSvL76uNgL5ZEm6YG8K"), (int64)1000);
@@ -1194,7 +1194,7 @@ void CPrimeNodeDB::WriteMicroPrimeDB() {
     WriteMicroPrimeAddr(std::string("PPaVBkEKyiPjjkKnUa8kHJU4XhALDeiN1E"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PJMkRYk7MnMcCoWZZeR9s2EeQfDq9XpTXg"), (int64)4000);
     WriteMicroPrimeAddr(std::string("PKHyyrxXzRafbDnqnKdqrnwwKkdWBmg8Tt"), (int64)1000);
-    WriteMicroPrimeAddr(std::string("PRTRUgEGNgV4hx21XpcUm1S1wNBVHehp2z"), (int64)1000);
+    WriteMicroPrimeAddr(std::string("PRTRUgEGNgV4hx21SUCKUm1S1wNBVHehp2z"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PAcuJqryVfvBKJ8XrXfk34pS5q9Zf23pSN"), (int64)3000);
     WriteMicroPrimeAddr(std::string("PMcVwVN45Qo5ggoKJU97dF3bg76EBkeNmU"), (int64)16000);
     WriteMicroPrimeAddr(std::string("PGW4QsRb7tFdb85mbqawYPoXHfVkU5oBrz"), (int64)1000);
@@ -2579,7 +2579,7 @@ void CPrimeNodeDB::WriteMicroPrimeDB() {
     WriteMicroPrimeAddr(std::string("PQRhPjJnF2MYbZ1vfXbxMWwrboPPTw5SCP"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PUPS1M8cSyUrg9qEnsNe1sVjufcA6VY7n2"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PN96bt8C9xHtigNxPasv5EyPwCRWfxW4pb"), (int64)1000);
-    WriteMicroPrimeAddr(std::string("PRDHQYAcCd2QZACrPwqocHJEphWXmoXpCe"), (int64)1000);
+    WriteMicroPrimeAddr(std::string("PRDHQYAcCd2QZACrPwqocHJEphWXmoSUCKe"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PAi728KdiLEgpjnpw3qDPnAomfxY4484B6"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PQzGN2wLmMcXFXvS2Ux5TpzMDPJvnfdYuG"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PWDPcfWf5LqfFzhf758iHvVLK13uhG9EUS"), (int64)1000);
@@ -3904,7 +3904,7 @@ void CPrimeNodeDB::WriteMicroPrimeDB() {
     WriteMicroPrimeAddr(std::string("PQXxt8jqkBnU9tCd3WSoDFy31ZjFWZadU8"), (int64)12000);
     WriteMicroPrimeAddr(std::string("PRw7DjgKcJHo2QntZe5T9A5F1mHUNt8gfJ"), (int64)12000);
     WriteMicroPrimeAddr(std::string("PJviWai4mHAUeeZV8oUr8WYrjED5L2L5oB"), (int64)12000);
-    WriteMicroPrimeAddr(std::string("PWApXpcfdWSCYerkDmXsFCryFxtYNWwB4x"), (int64)12000);
+    WriteMicroPrimeAddr(std::string("PWApSUCKfdWSCYerkDmXsFCryFxtYNWwB4x"), (int64)12000);
     WriteMicroPrimeAddr(std::string("PWrq52iYn3DTugPTz8KbTa9eHV6oa73YRF"), (int64)12000);
     WriteMicroPrimeAddr(std::string("PGCG7e7XcEdJgTZuLnjW4krJzuZqM1j7F9"), (int64)12000);
     WriteMicroPrimeAddr(std::string("PHxP2sF7XMFRgbb4mREu5RhUmoaVhk6qVx"), (int64)12000);

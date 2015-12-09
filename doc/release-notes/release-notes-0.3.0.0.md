@@ -1,13 +1,13 @@
-Paycoin version 0.3.0.0 is now available from:
+Suck-a-Coin version 0.3.0.0 is now available from:
 
-  https://github.com/PaycoinFoundation/paycoin/releases
+  https://github.com/Suck-a-CoinFoundation/Suck-a-Coin/releases
 
 This is a mandatory update, including a modification to the primenode stake
 rate and many bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/PaycoinFoundation/paycoin/issues
+  https://github.com/Suck-a-CoinFoundation/Suck-a-Coin/issues
 
 Upgrading and downgrading
 =========================
@@ -17,16 +17,16 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (this could take a few minutes), then run the installer (on Windows)
-or just copy over /Applications/Paycoin-Qt (on Mac) or paycoind/paycoin-qt (on Linux).
+or just copy over /Applications/Suck-a-Coin-Qt (on Mac) or Suck-a-Coind/Suck-a-Coin-qt (on Linux).
 
 If you encounter any issues starting the new wallet it is recommended that you delete and resync the blockchain. To delete the blockchain look in the
-Paycoin data directory (listed below) and delete everything except the wallet.dat and paycoin.conf
+Suck-a-Coin data directory (listed below) and delete everything except the wallet.dat and Suck-a-Coin.conf
 
-Linux : ~/.paycoin/
+Linux : ~/.Suck-a-Coin/
 
-Windows : %appdata%\Paycoin
+Windows : %appdata%\Suck-a-Coin
 
-Mac : ~/Library/Application Support/Paycoin
+Mac : ~/Library/Application Support/Suck-a-Coin
 
 It is highly recommended that if you do not have a backup of your wallet.dat
 to go ahead and make one before deleting the blockchain.
@@ -105,12 +105,12 @@ Validation / Staking:
 Miscellaneous:
 - `79d5644` Build tests:
 - `6e8db96` Fix util_tests.cpp
-- `bfe7f71` use Paycoin keys for tests
-- `971cc03` use Paycoin transaction for tests
+- `bfe7f71` use Suck-a-Coin keys for tests
+- `971cc03` use Suck-a-Coin transaction for tests
 - `fb9f6ab` use new version for tests
 - `e805876` Remove checknbits test
 - `3eb37a5` remove loop define
-- `c10e31d` Rename test_bitcoin.cpp to test_paycoin.cpp
+- `c10e31d` Rename test_bitcoin.cpp to test_Suck-a-Coin.cpp
 - `c75e4ac` Update .gitignore
 - `924345d` Remove the rest of the unneeded checknbits test.
 - `7003332` Fix translation files

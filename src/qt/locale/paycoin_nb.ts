@@ -3,17 +3,17 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Paycoin</source>
-        <translation>Om Paycoin</translation>
+        <source>About Suck-a-Coin</source>
+        <translation>Om Suck-a-Coin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Paycoin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;b&gt;Suck-a-Coin&lt;/b&gt; version</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Suck-a-Coin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Copyright © 2009-2012 Bitcoin Developers
 Copyright © 2011-2014 Peercoin Developers
-Copyright © 2014-2015 Paycoin Developers
+Copyright © 2014-2015 Suck-a-Coin Developers
 
 This is experimental software.
 
@@ -22,7 +22,7 @@ Distributed under the MIT software license, see the accompanying file COPYING or
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (https://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>Copyright © 2009-2012 Bitcoin Utviklerne
 Copyright © 2011-2014 Peercoin Utviklerne
-Copyright © 2014 Paycoin Utviklerne
+Copyright © 2014 Suck-a-Coin Utviklerne
 Dette er eksperimentell programvare.
 Distribuert under MIT programvarelisensen, se medfølgende fil COPYING eller http://www.opensource.org/licenses/mit-license.php.
 Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i OpenSSL Toolkit (https://www.openssl.org/), kryptografisk programvare skrevet av Eric Young (eay@cryptsoft.com) og UPnP programvare skrevet av Thomas Bernard.</translation>
@@ -35,8 +35,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
         <translation>Adressebok</translation>
     </message>
     <message>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine Paycoin-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
+        <source>These are your Suck-a-Coin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine Suck-a-Coin-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
@@ -161,14 +161,14 @@ Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i Op
         <translation>Kryptering av lommebok feilet</translation>
     </message>
     <message>
-        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PAYCOINS&lt;/b&gt;!
+        <source>WARNING: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Suck-a-CoinS&lt;/b&gt;!
 Are you sure you wish to encrypt your wallet?</source>
-        <translation>ADVARSEL: Hvis du krypterer lommeboken og mister passordet, så vil du &lt;b&gt;MISTE ALLE DINE PAYCOINS&lt;/b&gt;!
+        <translation>ADVARSEL: Hvis du krypterer lommeboken og mister passordet, så vil du &lt;b&gt;MISTE ALLE DINE Suck-a-CoinS&lt;/b&gt;!
 Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine paycoins fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
+        <source>Suck-a-Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Suck-a-Coins from being stolen by malware infecting your computer.</source>
+        <translation>Suck-a-Coin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine Suck-a-Coins fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -223,7 +223,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Motta paycoins</translation>
+        <translation>&amp;Motta Suck-a-Coins</translation>
     </message>
     <message>
         <source>Show the list of addresses for receiving payments</source>
@@ -231,7 +231,7 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
         <source>&amp;Send coins</source>
-        <translation>&amp;Send paycoins</translation>
+        <translation>&amp;Send Suck-a-Coins</translation>
     </message>
     <message>
         <source>Prove you control an address</source>
@@ -246,8 +246,8 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
         <translation>Avslutt applikasjonen</translation>
     </message>
     <message>
-        <source>Show information about Paycoin</source>
-        <translation>Vis informasjon om Paycoin</translation>
+        <source>Show information about Suck-a-Coin</source>
+        <translation>Vis informasjon om Suck-a-Coin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -322,32 +322,32 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
         <translation>[testnett]</translation>
     </message>
     <message>
-        <source>Paycoin Wallet</source>
-        <translation>Paycoin Lommebok</translation>
+        <source>Suck-a-Coin Wallet</source>
+        <translation>Suck-a-Coin Lommebok</translation>
     </message>
     <message>
-        <source>Send coins to a Paycoin address</source>
-        <translation>Send mynter til en Paycoin-adresse</translation>
+        <source>Send coins to a Suck-a-Coin address</source>
+        <translation>Send mynter til en Suck-a-Coin-adresse</translation>
     </message>
     <message>
-        <source>&amp;About Paycoin</source>
-        <translation>&amp;Om Paycoin</translation>
+        <source>&amp;About Suck-a-Coin</source>
+        <translation>&amp;Om Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Paycoin</source>
-        <translation>Endre oppsett for Paycoin</translation>
+        <source>Modify configuration options for Suck-a-Coin</source>
+        <translation>Endre oppsett for Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>Vis/Skjul &amp;Paycoin</translation>
+        <source>Show/Hide &amp;Suck-a-Coin</source>
+        <translation>Vis/Skjul &amp;Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Show or hide the Paycoin window</source>
-        <translation>Vis eller skjul Paycoin-vinduet</translation>
+        <source>Show or hide the Suck-a-Coin window</source>
+        <translation>Vis eller skjul Suck-a-Coin-vinduet</translation>
     </message>
     <message>
-        <source>Paycoin client</source>
-        <translation>Paycoin klient</translation>
+        <source>Suck-a-Coin client</source>
+        <translation>Suck-a-Coin klient</translation>
     </message>
     <message>
         <source>p-qt</source>
@@ -422,8 +422,8 @@ Adresse: %4
         <translation>Det oppsto en feil under lagring av lommebokdata til den nye lokasjonen.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Paycoin må derfor avslutte.</translation>
+        <source>A fatal error occurred. Suck-a-Coin can no longer continue safely and will quit.</source>
+        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Suck-a-Coin må derfor avslutte.</translation>
     </message>
 </context>
 <context>
@@ -613,15 +613,15 @@ Adresse: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Velg standard underenhet som skal vises i grensesnittet og ved sending av paycoins</translation>
+        <translation>Velg standard underenhet som skal vises i grensesnittet og ved sending av Suck-a-Coins</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
         <translation>&amp;Vis adresser i transaksjonslisten</translation>
     </message>
     <message>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
-        <translation>Om Paycoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
+        <source>Whether to show Suck-a-Coin addresses in the transaction list</source>
+        <translation>Om Suck-a-Coin-adresser skal vises i transaksjonslisten eller ikke.</translation>
     </message>
     <message>
         <source>Display coin control features (experts only!)</source>
@@ -675,8 +675,8 @@ Adresse: %4
         <translation>Den oppgitte adressen "%1" er allerede i adresseboken.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Paycoin address.</source>
-        <translation>Den oppgitte adressen "%1" er ikke en gyldig Paycoin-adresse.</translation>
+        <source>The entered address "%1" is not a valid Suck-a-Coin address.</source>
+        <translation>Den oppgitte adressen "%1" er ikke en gyldig Suck-a-Coin-adresse.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -940,8 +940,8 @@ Adresse: %4
         <translation>Tøm konsoll</translation>
     </message>
     <message>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Velkommen til Paycoin sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
+        <source>Welcome to the Suck-a-Coin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Velkommen til Suck-a-Coin sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
     </message>
 </context>
 <context>
@@ -1084,7 +1084,7 @@ Adresse: %4
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bekreft sending av paycoins</translation>
+        <translation>Bekreft sending av Suck-a-Coins</translation>
     </message>
     <message>
         <source>Are you sure you want to send %1?</source>
@@ -1099,8 +1099,8 @@ Adresse: %4
         <translation>Beløpet som må betales må være minimum en hundredel (0.01).</translation>
     </message>
     <message>
-        <source>Warning: Invalid Paycoin address</source>
-        <translation>Advarsel: Ugyldig Paycoin-adresse</translation>
+        <source>Warning: Invalid Suck-a-Coin address</source>
+        <translation>Advarsel: Ugyldig Suck-a-Coin-adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1115,8 +1115,8 @@ Adresse: %4
         <translation>Beløpet overstiger saldoen din</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Angi en Paycoin-adresse</translation>
+        <source>Enter a Suck-a-Coin address</source>
+        <translation>Angi en Suck-a-Coin-adresse</translation>
     </message>
     <message>
         <source>Error: Transaction creation failed  </source>
@@ -1221,8 +1221,8 @@ Adresse: %4
         <translation>Kopier den nåværende signaturen til systemets utklippstavle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Paycoin address</source>
-        <translation>Signer meldingen for å bevise at du eier denne Paycoin-adressen</translation>
+        <source>Sign the message to prove you own this Suck-a-Coin address</source>
+        <translation>Signer meldingen for å bevise at du eier denne Suck-a-Coin-adressen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1249,8 +1249,8 @@ Adresse: %4
         <translation>Adressen meldingen var signert med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Paycoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Suck-a-Coin address</source>
+        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Suck-a-Coin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1269,8 +1269,8 @@ Adresse: %4
         <translation>Angi signaturen til meldingen</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Angi en Paycoin-adresse</translation>
+        <source>Enter a Suck-a-Coin address</source>
+        <translation>Angi en Suck-a-Coin-adresse</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1621,16 +1621,16 @@ Adresse: %4
         <translation>Bruk:</translation>
     </message>
     <message>
-        <source>Unable to bind to port %d on this computer.  Paycoin is probably already running.</source>
-        <translation>Ute av stand til å binde til port %d på denne datamaskinen. Paycoin kjører sannsynligvis allerede.</translation>
+        <source>Unable to bind to port %d on this computer.  Suck-a-Coin is probably already running.</source>
+        <translation>Ute av stand til å binde til port %d på denne datamaskinen. Suck-a-Coin kjører sannsynligvis allerede.</translation>
     </message>
     <message>
-        <source>Paycoin version</source>
-        <translation>Paycoin versjon</translation>
+        <source>Suck-a-Coin version</source>
+        <translation>Suck-a-Coin versjon</translation>
     </message>
     <message>
-        <source>Send command to -server or paycoind</source>
-        <translation>Send kommando til -server eller paycoind</translation>
+        <source>Send command to -server or Suck-a-Coind</source>
+        <translation>Send kommando til -server eller Suck-a-Coind</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -1645,12 +1645,12 @@ Adresse: %4
         <translation>Innstillinger:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: paycoin.conf)</source>
-        <translation>Angi konfigurasjonsfil (standardverdi: paycoin.conf)</translation>
+        <source>Specify configuration file (default: Suck-a-Coin.conf)</source>
+        <translation>Angi konfigurasjonsfil (standardverdi: Suck-a-Coin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Angi pid-fil (standardverdi: paycoind.pid)</translation>
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>Angi pid-fil (standardverdi: Suck-a-Coind.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>
@@ -1854,24 +1854,24 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Bruk</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>Ute av stand til å låse datamappen %s. Paycoin kjører sannsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Suck-a-Coin is probably already running.</source>
+        <translation>Ute av stand til å låse datamappen %s. Suck-a-Coin kjører sannsynligvis allerede.</translation>
     </message>
     <message>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>Suck-a-Coin</source>
+        <translation>Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Suck-a-Coin</source>
+        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Suck-a-Coin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>Lommeboken måtte skrives om: start Paycoin på nytt for å fullføre</translation>
+        <source>Wallet needed to be rewritten: restart Suck-a-Coin to complete</source>
+        <translation>Lommeboken måtte skrives om: start Suck-a-Coin på nytt for å fullføre</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke Paycoin fungere skikkelig.</translation>
+        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Suck-a-Coin will not work properly.</source>
+        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke Suck-a-Coin fungere skikkelig.</translation>
     </message>
     <message>
         <source>Loading addresses...</source>

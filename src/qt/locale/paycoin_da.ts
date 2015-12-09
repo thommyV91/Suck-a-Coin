@@ -937,8 +937,8 @@ Adresse: %4
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Angiv pid-fil (default: paycoind.pid)
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>Angiv pid-fil (default: Suck-a-Coind.pid)
 </translation>
     </message>
     <message>

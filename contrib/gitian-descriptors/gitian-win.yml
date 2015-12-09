@@ -1,5 +1,5 @@
 ---
-name: "paycoin"
+name: "Suck-a-Coin"
 suites:
 - "precise"
 architectures:
@@ -14,15 +14,15 @@ packages:
 
 reference_datetime: "2013-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/paycoinfoundation/paycoin.git"
-  "dir": "paycoin"
+- "url": "https://github.com/Suck-a-Coinfoundation/Suck-a-Coin.git"
+  "dir": "Suck-a-Coin"
 files:
 - "qt-win32-4.8.5-gitian-r3.zip"
 - "qt-win64-4.8.5-gitian-r3.zip"
 - "boost-win32-1.55.0-gitian-r6.zip"
 - "boost-win64-1.55.0-gitian-r6.zip"
-- "paycoin-deps-win32-gitian-r13.zip"
-- "paycoin-deps-win64-gitian-r13.zip"
+- "Suck-a-Coin-deps-win32-gitian-r13.zip"
+- "Suck-a-Coin-deps-win64-gitian-r13.zip"
 script: |
   # Defines
   export TZ=UTC
@@ -46,45 +46,45 @@ script: |
     cd $STAGING
     unzip $INDIR/qt-win${BITS}-4.8.5-gitian-r3.zip
     unzip $INDIR/boost-win${BITS}-1.55.0-gitian-r6.zip
-    unzip $INDIR/paycoin-deps-win${BITS}-gitian-r13.zip
+    unzip $INDIR/Suck-a-Coin-deps-win${BITS}-gitian-r13.zip
     if [ "$NEEDDIST" == "1" ]; then
       # Make source code archive which is architecture independent so it only needs to be done once
-      cd $HOME/build/paycoin
-      git archive --format=tar -o paycoin.tar HEAD
+      cd $HOME/build/Suck-a-Coin
+      git archive --format=tar -o Suck-a-Coin.tar HEAD
       cp doc/README_windows.md $OUTDIR/readme.md
       cp COPYING $OUTDIR/COPYING.txt
-      DISTNAME=paycoin.tar
+      DISTNAME=Suck-a-Coin.tar
       NEEDDIST=0
     fi
 
     # Build platform-dependent executables from source archive
     cd $BUILDDIR
-    cp -r $HOME/build/paycoin distsrc
+    cp -r $HOME/build/Suck-a-Coin distsrc
     cd distsrc
 
     export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
     export FAKETIME=$REFERENCE_DATETIME
 
-    $STAGING/host/bin/qmake -spec win32-g++ CROSS_COMPILE=$HOST USE_QRCODE=1 INCLUDEPATH=$STAGING BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=paycoin QMAKE_LFLAGS="-static-libgcc -static-libstdc++ -frandom-seed=paycoin" USE_BUILD_INFO=1
+    $STAGING/host/bin/qmake -spec win32-g++ CROSS_COMPILE=$HOST USE_QRCODE=1 INCLUDEPATH=$STAGING BOOST_LIB_SUFFIX=-mt-s BOOST_THREAD_LIB_SUFFIX=_win32-mt-s DEFINES=BOOST_THREAD_USE_LIB BITCOIN_NEED_QT_PLUGINS=1 QMAKE_LRELEASE=lrelease QMAKE_CXXFLAGS=-frandom-seed=Suck-a-Coin QMAKE_LFLAGS="-static-libgcc -static-libstdc++ -frandom-seed=Suck-a-Coin" USE_BUILD_INFO=1
     make $MAKEOPTS
-    mv release/paycoin-qt.exe release/paycoin.exe
-    ${HOST}-strip release/paycoin.exe
-    cp -f release/paycoin.exe $BINDIR/
+    mv release/Suck-a-Coin-qt.exe release/Suck-a-Coin.exe
+    ${HOST}-strip release/Suck-a-Coin.exe
+    cp -f release/Suck-a-Coin.exe $BINDIR/
 
     cd src
-    make -f makefile.linux-mingw $MAKEOPTS HOST=$HOST DEPSDIR=$STAGING paycoind.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=paycoin"
-    ${HOST}-strip paycoind.exe
-    cp -f paycoind.exe $BINDIR/
+    make -f makefile.linux-mingw $MAKEOPTS HOST=$HOST DEPSDIR=$STAGING Suck-a-Coind.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=Suck-a-Coin"
+    ${HOST}-strip Suck-a-Coind.exe
+    cp -f Suck-a-Coind.exe $BINDIR/
 
     cd $BUILDDIR
     mkdir nsis
     cd nsis
-    tar -xf $HOME/build/paycoin/$DISTNAME
+    tar -xf $HOME/build/Suck-a-Coin/$DISTNAME
     mkdir release
-    cp $BINDIR/paycoin.exe release/
-    cp $BINDIR/paycoind.exe release/
+    cp $BINDIR/Suck-a-Coin.exe release/
+    cp $BINDIR/Suck-a-Coind.exe release/
     makensis share/setup.nsi
-    cp share/Paycoin-*setup*.exe $BINDIR
+    cp share/Suck-a-Coin-*setup*.exe $BINDIR
     unset LD_PRELOAD
     unset FAKETIME
   done # for BITS in
@@ -94,4 +94,4 @@ script: |
   rm -rf $TEMPDIR
   mkdir -p $TEMPDIR
   cd $TEMPDIR
-  tar -xvf $HOME/build/paycoin/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME.gz
+  tar -xvf $HOME/build/Suck-a-Coin/$DISTNAME | sort | tar --no-recursion -cT /dev/stdin --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 --mtime="$REFERENCE_DATETIME" | gzip -n > $OUTDIR/src/$DISTNAME.gz

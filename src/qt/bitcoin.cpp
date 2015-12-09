@@ -1,7 +1,7 @@
 /*
  * W.J. van der Laan 2011-2012
  * The PPCoin Developers 2013
- * The Paycoin Developers 2014-2015
+ * The Suck-a-Coin Developers 2014-2015
  */
 #include "bitcoingui.h"
 #include "clientmodel.h"
@@ -128,7 +128,7 @@ std::string _(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Paycoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Suck-a-Coin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -149,17 +149,17 @@ private:
 HelpMessageBox::HelpMessageBox(QWidget *parent):
     QMessageBox(parent)
 {
-    header = tr("Paycoin-Qt") + " " + tr("version") + " " +
+    header = tr("Suck-a-Coin-Qt") + " " + tr("version") + " " +
             QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-          "  paycoin-qt [options]                     " + "\n";
+          "  Suck-a-Coin-qt [options]                     " + "\n";
     coreOptions = QString::fromStdString(HelpMessage());
     uiOptions = tr("UI options") + ":\n" +
             "  -lang=<lang>          " + tr("Set language, for example \"de_DE\" (default: system locale)") + "\n" +
             "  -min                  " + tr("Start minimized") + "\n" +
             "  -splash               " + tr("Show splash screen on startup (default: 1)") + "\n";
 
-    setWindowTitle(tr("Paycoin-Qt"));
+    setWindowTitle(tr("Suck-a-Coin-Qt"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in nonbreaking spaces to make it wider.
     QChar em_space(0x2003);
@@ -188,7 +188,7 @@ int main(int argc, char *argv[])
     // Do this early as we don't want to bother initializing if we are just calling IPC
     for (int i = 1; i < argc; i++)
     {
-        if (boost::algorithm::istarts_with(argv[i], "paycoin:"))
+        if (boost::algorithm::istarts_with(argv[i], "Suck-a-Coin:"))
         {
             const char *strURI = argv[i];
             try {
@@ -228,12 +228,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    app.setOrganizationName("Paycoin");
-    app.setOrganizationDomain("paycoin.org");
+    app.setOrganizationName("Suck-a-Coin");
+    app.setOrganizationDomain("Suck-a-Coin.org");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        app.setApplicationName("Paycoin-Qt-testnet");
+        app.setApplicationName("Suck-a-Coin-Qt-testnet");
     else
-        app.setApplicationName("Paycoin-Qt");
+        app.setApplicationName("Suck-a-Coin-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;
@@ -327,7 +327,7 @@ int main(int argc, char *argv[])
                 // Check for URI in argv
                 for (int i = 1; i < argc; i++)
                 {
-                    if (boost::algorithm::istarts_with(argv[i], "paycoin:"))
+                    if (boost::algorithm::istarts_with(argv[i], "Suck-a-Coin:"))
                     {
                         const char *strURI = argv[i];
                         try {

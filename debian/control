@@ -1,12 +1,12 @@
-Source: paycoin
+Source: Suck-a-Coin
 Section: utils
 Priority: optional
-Maintainer: wdl1908 <wdlbit@linux-lovers.be>
-Build-Depends: debhelper (>= 9.0.0),
+Maintainer: wdl1908 +ADw-wdlbit+AEA-linux-lovers.be+AD4-
+Build-Depends: debhelper (+AD4APQ- 9.0.0),
  devscripts,
  libqt4-dev,
  qt4-qmake,
- libdb++-dev,
+ libdbdev,
  libboost-system-dev,
  libboost-filesystem-dev,
  libboost-program-options-dev,
@@ -16,17 +16,17 @@ Build-Depends: debhelper (>= 9.0.0),
  libminiupnpc-dev,
  libqrencode-dev
 Standards-Version: 0.1.2.26
-Homepage: https://paycoin.com/
-Vcs-Git: https://github.com/PaycoinFoundation/paycoin.git
+Homepage: https://Suck-a-Coin.com/
+Vcs-Git: https://github.com/Suck-a-CoinFoundation/Suck-a-Coin.git
 
-Package: paycoin-qt
+Package: Suck-a-Coin-qt
 Architecture: any-amd64 any-i386 any-arm
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Paycoin wallet GUI
+Depends: +ACQAew-shlibs:Depends+AH0-, +ACQAew-misc:Depends+AH0-
+Description: Suck-a-Coin wallet GUI
  Peer-to-Peer cryptocurrency with Proof-of-Stake.
 
-Package: paycoind
+Package: Suck-a-Coind
 Architecture: any-amd64 any-i386 any-arm
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Paycoin daemon
+Depends: +ACQAew-shlibs:Depends+AH0-, +ACQAew-misc:Depends+AH0-
+Description: Suck-a-Coin daemon
  Peer-to-Peer cryptocurrency with Proof-of-Stake.

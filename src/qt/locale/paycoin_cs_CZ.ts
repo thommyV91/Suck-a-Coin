@@ -1046,8 +1046,8 @@ Adresa: %4
         <translation>Možnosti:</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>PID soubor (výchozí: paycoind.pid)</translation>
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>PID soubor (výchozí: Suck-a-Coind.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>

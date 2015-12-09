@@ -16,7 +16,7 @@ static const string strSecret1C    ("U76Q24hGgci6cLD7SWFEBQkE6iDcwyD4iYRokPLyMnY
 static const string strSecret2C    ("U7QVmghDkfHxHqryWe2ufDdYrFJMFfZQ2JNuXzBaba1egJp1P2zU");
 static const CBitcoinAddress addr1 ("PU6Cr256nZyNcEPrkeUNtLqax81xBGkGzU");
 static const CBitcoinAddress addr2 ("PXiEuHjXJ5GD4GM3on98djkXWJymzqn95y");
-static const CBitcoinAddress addr1C("PX87vXknPK6wPEHD7gft16CXTVMiBxPCQ5");
+static const CBitcoinAddress addr1C("PX87vXknPK6wPEHD7gft16CXTVMiBSUCKQ5");
 static const CBitcoinAddress addr2C("PR5HiPNoQhbcp6KGGLE7E9SvGRHhWpjaw6");
 
 

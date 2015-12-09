@@ -184,7 +184,7 @@
     </message>
     <message>
         <source>&amp;Receive coins</source>
-        <translation>&amp;Prijať Paycoins</translation>
+        <translation>&amp;Prijať Suck-a-Coins</translation>
     </message>
     <message>
         <source>Show the list of addresses for receiving payments</source>
@@ -192,7 +192,7 @@
     </message>
     <message>
         <source>&amp;Send coins</source>
-        <translation>&amp;Poslať Paycoins</translation>
+        <translation>&amp;Poslať Suck-a-Coins</translation>
     </message>
     <message>
         <source>Prove you control an address</source>
@@ -548,7 +548,7 @@ Adresa: %4</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Paycoins</translation>
+        <translation>Poslať Suck-a-Coins</translation>
     </message>
     <message>
         <source>0</source>
@@ -600,7 +600,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie Paycoins</translation>
+        <translation>Potvrdiť odoslanie Suck-a-Coins</translation>
     </message>
     <message>
         <source>Are you sure you want to send %1?</source>
@@ -973,16 +973,16 @@ Adresa: %4</translation>
         <translation>Možnosti:</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Určiť súbor pid (predvolené: paycoind.pid)</translation>
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>Určiť súbor pid (predvolené: Suck-a-Coind.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>
-        <translation>Počítaj Paycoins</translation>
+        <translation>Počítaj Suck-a-Coins</translation>
     </message>
     <message>
         <source>Don't generate coins</source>
-        <translation>Nepočítaj Paycoins</translation>
+        <translation>Nepočítaj Suck-a-Coins</translation>
     </message>
     <message>
         <source>Start minimized</source>

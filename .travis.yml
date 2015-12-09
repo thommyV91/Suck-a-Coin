@@ -13,17 +13,17 @@ addons:
       - libboost-all-dev
       - libssl-dev
       - libminiupnpc-dev
-      - libdb++-dev
+      - libdbdev
       - qt4-qmake
       - libqt4-dev
       - libqrencode-dev
 
 script:
-  - qmake USE_QRCODE=1
+  - qmake USE+AF8-QRCODE+AD0-1
   - make clean
   - make
   - cd src
   - make -f makefile.unix clean
   - make -f makefile.unix
-  - make -f makefile.unix test_paycoin
-  - ./test_paycoin
+  - make -f makefile.unix test+AF8-Suck-a-Coin
+  - ./test+AF8-Suck-a-Coin

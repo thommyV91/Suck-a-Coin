@@ -1,9 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: paycoin
-Source: https://github.com/PaycoinFoundation/paycoin.git
+Upstream-Name: Suck-a-Coin
+Source: https://github.com/Suck-a-CoinFoundation/Suck-a-Coin.git
 
 Files: *
-Copyright: Copyright (c) 2014 Paycoin (Paycoin) Developers
+Copyright: Copyright (c) 2014 Suck-a-Coin (Suck-a-Coin) Developers
            Copyright (c) 2011-2014 PPCoin Developers
            Copyright (c) 2009-2012 Bitcoin Developers
 License: MIT

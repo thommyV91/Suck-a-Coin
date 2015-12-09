@@ -1,7 +1,7 @@
-Team comms (IRC, CC, Skype, etc.) re: Paycoin testing
-Paycoin Gitian process pre-merge testing
-Paycoin Gitian pre-merge build output regression testing
-Paycoin Gitian compilation and testing w/ version fixes
-Paycoin issues tracking
-Paycoin coin control testing
-Paycoin regression testing
+Team comms (IRC, CC, Skype, etc.) re: Suck-a-Coin testing
+Suck-a-Coin Gitian process pre-merge testing
+Suck-a-Coin Gitian pre-merge build output regression testing
+Suck-a-Coin Gitian compilation and testing w/ version fixes
+Suck-a-Coin issues tracking
+Suck-a-Coin coin control testing
+Suck-a-Coin regression testing

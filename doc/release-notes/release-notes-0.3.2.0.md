@@ -1,12 +1,12 @@
-Paycoin version 0.3.2.0 is now available from:
+Suck-a-Coin version 0.3.2.0 is now available from:
 
-  https://github.com/PaycoinFoundation/paycoin/releases
+  https://github.com/Suck-a-CoinFoundation/Suck-a-Coin/releases
 
 This is a mandatory update, including microprimes and many bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/PaycoinFoundation/paycoin/issues
+  https://github.com/Suck-a-CoinFoundation/Suck-a-Coin/issues
 
 Upgrading and downgrading
 =========================
@@ -16,16 +16,16 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (this could take a few minutes), then run the installer (on Windows)
-or just copy over /Applications/Paycoin-Qt (on Mac) or paycoind/paycoin-qt (on Linux).
+or just copy over /Applications/Suck-a-Coin-Qt (on Mac) or Suck-a-Coind/Suck-a-Coin-qt (on Linux).
 
 If you encounter any issues starting the new wallet it is recommended that you delete and resync the blockchain. To delete the blockchain look in the
-Paycoin data directory (listed below) and delete everything except the wallet.dat and paycoin.conf
+Suck-a-Coin data directory (listed below) and delete everything except the wallet.dat and Suck-a-Coin.conf
 
-Linux : ~/.paycoin/
+Linux : ~/.Suck-a-Coin/
 
-Windows : %appdata%\Paycoin
+Windows : %appdata%\Suck-a-Coin
 
-Mac : ~/Library/Application Support/Paycoin
+Mac : ~/Library/Application Support/Suck-a-Coin
 
 It is highly recommended that if you do not have a backup of your wallet.dat
 to go ahead and make one before deleting the blockchain.
@@ -94,7 +94,7 @@ Database handling:
 - `55014b6` Further CDBEnv encapsulation work.
 - `fb8ea7e` Remove CTxDB::ReadOwnerTxes.
 - `f130bf1` Removed duplicated lock
-- `d28a6ef` Run BDB disk-less for test_paycoin
+- `d28a6ef` Run BDB disk-less for test_Suck-a-Coin
 - `3610d69` Simplify CDBEnv::Open() / fix small glitches
 - `5e9c8d8` Use a CriticalSection when writing to the primenode database
 - `b23a182` Lock writes to scrapes database with CriticalSection.
@@ -117,7 +117,7 @@ Miscellaneous:
 - `15a1c9c` Add the testnet genesis block to the testnet checkpoints
 - `4c03219` Kill warning from unavoidable signed/unsigned comparison in bitcoinrp…
 - `eec4c58` Upgrade OpenSSL to 1.0.1h
-- `7fd751a` Add a Paycoin files explanation document
+- `7fd751a` Add a Suck-a-Coin files explanation document
 - `b41d0e4` Add compatibility for miniupnpc api 14
 - `f63ee42` Stop processing messages on full send buffer and dont disconnect
 - `8cadd8c` Add a '-stake' flag to disable the staking thread

@@ -1054,8 +1054,8 @@ Adres: %4
         <translation>Seçenekler:</translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: paycoind.pid)</translation>
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: Suck-a-Coind.pid)</translation>
     </message>
     <message>
         <source>Generate coins</source>

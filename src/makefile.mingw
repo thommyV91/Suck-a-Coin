@@ -1,6 +1,6 @@
 # Copyright (c) 2009-2010 Satoshi Nakamoto
 # Copyright (c) 2012 The Peercoin developers
-# Copyright (c) 2015 The Paycoin developers
+# Copyright (c) 2015 The Suck-a-Coin developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -52,10 +52,10 @@
 #     mkdir miniupnpc
 #     cp *.h miniupnpc/
 #
-# - Build paycoind.exe
+# - Build Suck-a-Coind.exe
 #   in MinGW MSYS
-#     cd paycoin/src
-#     make paycoind.exe -f makefile.mingw USE_UPNP=1
+#     cd Suck-a-Coin/src
+#     make Suck-a-Coind.exe -f makefile.mingw USE_UPNP=1
 #
 #
 
@@ -128,12 +128,12 @@ OBJS= \
     obj/mpkeys_test.o \
     obj/scrapesdb.o
 
-all: paycoind.exe
+all: Suck-a-Coind.exe
 
 obj/%.o: %.cpp $(HEADERS)
 	g++ -c $(CFLAGS) -o $@ $<
 
-paycoind.exe: $(OBJS:obj/%=obj/%)
+Suck-a-Coind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -141,11 +141,11 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	g++ -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
-test_paycoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_Suck-a-Coin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework $(LIBS)
 
 clean:
-	-del /Q paycoind test_paycoin
+	-del /Q Suck-a-Coind test_Suck-a-Coin
 	-del /Q obj\*
 	-del /Q obj-test\*
 	-del /Q build.h

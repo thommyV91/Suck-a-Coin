@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2015 The Peercoin developers
-// Copyright (c) 2014-2015 The Paycoin developers
+// Copyright (c) 2014-2015 The Suck-a-Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -749,7 +749,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     pszModule[0] = '\0';
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "paycoin";
+    const char* pszModule = "Suck-a-Coin";
 #endif
     if (pex)
         return strprintf(
@@ -821,12 +821,12 @@ boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
 
-    // Windows: C:\Documents and Settings\username\Application Data\Paycoin
-    // Mac: ~/Library/Application Support/Paycoin
-    // Unix: ~/.paycoin
+    // Windows: C:\Documents and Settings\username\Application Data\Suck-a-Coin
+    // Mac: ~/Library/Application Support/Suck-a-Coin
+    // Unix: ~/.Suck-a-Coin
 #ifdef WIN32
     // Windows
-    return MyGetSpecialFolderPath(CSIDL_APPDATA, true) / "Paycoin";
+    return MyGetSpecialFolderPath(CSIDL_APPDATA, true) / "Suck-a-Coin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -838,10 +838,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Paycoin";
+    return pathRet / "Suck-a-Coin";
 #else
     // Unix
-    return pathRet / ".paycoin";
+    return pathRet / ".Suck-a-Coin";
 #endif
 #endif
 }
@@ -876,7 +876,7 @@ boost::filesystem::path GetConfigFile()
 {
     namespace fs = boost::filesystem;
 
-    fs::path pathConfigFile(GetArg("-conf", "paycoin.conf"));
+    fs::path pathConfigFile(GetArg("-conf", "Suck-a-Coin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -915,7 +915,7 @@ boost::filesystem::path GetPidFile()
 {
     namespace fs = boost::filesystem;
 
-    fs::path pathPidFile(GetArg("-pid", "paycoind.pid"));
+    fs::path pathPidFile(GetArg("-pid", "Suck-a-Coind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1057,10 +1057,10 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct.  If your clock is wrong Paycoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct.  If your clock is wrong Suck-a-Coin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    ThreadSafeMessageBox(strMessage+" ", string("Paycoin"), wxOK | wxICON_EXCLAMATION);
+                    ThreadSafeMessageBox(strMessage+" ", string("Suck-a-Coin"), wxOK | wxICON_EXCLAMATION);
                 }
             }
         }
@@ -1104,7 +1104,7 @@ std::string FormatSubVersion(const std::string& name, int nClientVersion, const 
     ss << "/";
     ss << "Peercoin:" << FormatVersion(PPCOIN_VERSION);
     ss << "/";
-    ss << "Paycoin:" << FormatVersion(PEERUNITY_VERSION);
+    ss << "Suck-a-Coin:" << FormatVersion(PEERUNITY_VERSION);
     ss << "(" << CLIENT_BUILD << ")/";
     return ss.str();
 }
@@ -1112,7 +1112,7 @@ std::string FormatSubVersion(const std::string& name, int nClientVersion, const 
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return MyGetSpecialFolderPath(CSIDL_STARTUP, true) / "Paycoin.lnk";
+    return MyGetSpecialFolderPath(CSIDL_STARTUP, true) / "Suck-a-Coin.lnk";
 }
 
 bool GetStartOnSystemStartup()
@@ -1193,7 +1193,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "paycoin.desktop";
+    return GetAutostartDir() / "Suck-a-Coin.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -1234,7 +1234,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Paycoin\n";
+        optionFile << "Name=Suck-a-Coin\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

@@ -421,7 +421,7 @@
     </message>
     <message>
         <source>Amount exceeds your balance</source>
-        <translation>Nincs ennyi Paycoin az egyenlegeden.</translation>
+        <translation>Nincs ennyi Suck-a-Coin az egyenlegeden.</translation>
     </message>
     <message>
         <source>Error: Transaction creation failed  </source>

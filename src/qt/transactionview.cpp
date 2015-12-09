@@ -344,9 +344,9 @@ void TransactionView::openTransactionInLedger()
     {
         QString url;
         if (fTestNet) {
-            url = "http://testnet.paycoin.com/transaction/";
+            url = "http://testnet.Suck-a-Coin.com/transaction/";
         } else {
-            url = "http://ledger.paycoin.com/transaction/";
+            url = "http://ledger.Suck-a-Coin.com/transaction/";
         }
 
         url.append(selection.at(0).data(TransactionTableModel::TxIDRole).toString());

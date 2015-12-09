@@ -37,9 +37,9 @@
         <file alias="key">res/icons/key.png</file>
         <file alias="filesave">res/icons/filesave.png</file>
         <file>res/icons/horizontal_trans-no-shadow.png</file>
-        <file>res/icons/paycoin_testnet.png</file>
-        <file alias="paycoin_tooltip">res/icons/paycoin.png</file>
-        <file>res/icons/paycoin.ico</file>
+        <file>res/icons/Suck-a-Coin_testnet.png</file>
+        <file alias="Suck-a-Coin_tooltip">res/icons/Suck-a-Coin.png</file>
+        <file>res/icons/Suck-a-Coin.ico</file>
         <file alias="qrcode">res/icons/qrcode.png</file>
         <file alias="debugwindow">res/icons/debugwindow.png</file>
     </qresource>
@@ -86,45 +86,45 @@
         <file alias="spinner-034">res/movies/spinner-034.png</file>
     </qresource>
     <qresource prefix="/translations">
-        <file alias="ar">locale/paycoin_ar.qm</file>
-        <file alias="ca_ES">locale/paycoin_ca_ES.qm</file>
-        <file alias="cs">locale/paycoin_cs.qm</file>
-        <file alias="cs_CZ">locale/paycoin_cs_CZ.qm</file>
-        <file alias="da">locale/paycoin_da.qm</file>
-        <file alias="de">locale/paycoin_de.qm</file>
-        <file alias="el_GR">locale/paycoin_el_GR.qm</file>
-        <file alias="en">locale/paycoin_en.qm</file>
-        <file alias="es">locale/paycoin_es.qm</file>
-        <file alias="es_CL">locale/paycoin_es_CL.qm</file>
-        <file alias="et">locale/paycoin_et.qm</file>
-        <file alias="et_EE">locale/paycoin_et_EE.qm</file>
-        <file alias="eu_ES">locale/paycoin_eu_ES.qm</file>
-        <file alias="fa">locale/paycoin_fa.qm</file>
-        <file alias="fa_IR">locale/paycoin_fa_IR.qm</file>
-        <file alias="fi">locale/paycoin_fi.qm</file>
-        <file alias="fr">locale/paycoin_fr.qm</file>
-        <file alias="he">locale/paycoin_he.qm</file>
-        <file alias="hi">locale/paycoin_hi.qm</file>
-        <file alias="hr">locale/paycoin_hr.qm</file>
-        <file alias="hr_HR">locale/paycoin_hr_HR.qm</file>
-        <file alias="hu">locale/paycoin_hu.qm</file>
-        <file alias="id">locale/paycoin_id.qm</file>
-        <file alias="it">locale/paycoin_it.qm</file>
-        <file alias="lt">locale/paycoin_lt.qm</file>
-        <file alias="nb">locale/paycoin_nb.qm</file>
-        <file alias="nl">locale/paycoin_nl.qm</file>
-        <file alias="pl">locale/paycoin_pl.qm</file>
-        <file alias="pt_BR">locale/paycoin_pt_BR.qm</file>
-        <file alias="ro_RO">locale/paycoin_ro_RO.qm</file>
-        <file alias="ru">locale/paycoin_ru.qm</file>
-        <file alias="sk">locale/paycoin_sk.qm</file>
-        <file alias="sk_SK">locale/paycoin_sk_SK.qm</file>
-        <file alias="sr">locale/paycoin_sr.qm</file>
-        <file alias="sv">locale/paycoin_sv.qm</file>
-        <file alias="tr">locale/paycoin_tr.qm</file>
-        <file alias="tr_TR">locale/paycoin_tr_TR.qm</file>
-        <file alias="uk">locale/paycoin_uk.qm</file>
-        <file alias="zh_CN">locale/paycoin_zh_CN.qm</file>
-        <file alias="zh_TW">locale/paycoin_zh_TW.qm</file>
+        <file alias="ar">locale/Suck-a-Coin_ar.qm</file>
+        <file alias="ca_ES">locale/Suck-a-Coin_ca_ES.qm</file>
+        <file alias="cs">locale/Suck-a-Coin_cs.qm</file>
+        <file alias="cs_CZ">locale/Suck-a-Coin_cs_CZ.qm</file>
+        <file alias="da">locale/Suck-a-Coin_da.qm</file>
+        <file alias="de">locale/Suck-a-Coin_de.qm</file>
+        <file alias="el_GR">locale/Suck-a-Coin_el_GR.qm</file>
+        <file alias="en">locale/Suck-a-Coin_en.qm</file>
+        <file alias="es">locale/Suck-a-Coin_es.qm</file>
+        <file alias="es_CL">locale/Suck-a-Coin_es_CL.qm</file>
+        <file alias="et">locale/Suck-a-Coin_et.qm</file>
+        <file alias="et_EE">locale/Suck-a-Coin_et_EE.qm</file>
+        <file alias="eu_ES">locale/Suck-a-Coin_eu_ES.qm</file>
+        <file alias="fa">locale/Suck-a-Coin_fa.qm</file>
+        <file alias="fa_IR">locale/Suck-a-Coin_fa_IR.qm</file>
+        <file alias="fi">locale/Suck-a-Coin_fi.qm</file>
+        <file alias="fr">locale/Suck-a-Coin_fr.qm</file>
+        <file alias="he">locale/Suck-a-Coin_he.qm</file>
+        <file alias="hi">locale/Suck-a-Coin_hi.qm</file>
+        <file alias="hr">locale/Suck-a-Coin_hr.qm</file>
+        <file alias="hr_HR">locale/Suck-a-Coin_hr_HR.qm</file>
+        <file alias="hu">locale/Suck-a-Coin_hu.qm</file>
+        <file alias="id">locale/Suck-a-Coin_id.qm</file>
+        <file alias="it">locale/Suck-a-Coin_it.qm</file>
+        <file alias="lt">locale/Suck-a-Coin_lt.qm</file>
+        <file alias="nb">locale/Suck-a-Coin_nb.qm</file>
+        <file alias="nl">locale/Suck-a-Coin_nl.qm</file>
+        <file alias="pl">locale/Suck-a-Coin_pl.qm</file>
+        <file alias="pt_BR">locale/Suck-a-Coin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/Suck-a-Coin_ro_RO.qm</file>
+        <file alias="ru">locale/Suck-a-Coin_ru.qm</file>
+        <file alias="sk">locale/Suck-a-Coin_sk.qm</file>
+        <file alias="sk_SK">locale/Suck-a-Coin_sk_SK.qm</file>
+        <file alias="sr">locale/Suck-a-Coin_sr.qm</file>
+        <file alias="sv">locale/Suck-a-Coin_sv.qm</file>
+        <file alias="tr">locale/Suck-a-Coin_tr.qm</file>
+        <file alias="tr_TR">locale/Suck-a-Coin_tr_TR.qm</file>
+        <file alias="uk">locale/Suck-a-Coin_uk.qm</file>
+        <file alias="zh_CN">locale/Suck-a-Coin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/Suck-a-Coin_zh_TW.qm</file>
     </qresource>
 </RCC>

@@ -7,7 +7,7 @@ handle those translations.
 Files and Folders
 -----------------
 
-### paycoin.pro
+### Suck-a-Coin.pro
 
 This file takes care of generating `.qm` files from `.ts` files. It is mostly
 automated.
@@ -18,7 +18,7 @@ This file must be updated whenever a new translation is added. Please note that
 files must end with `.qm`, not `.ts`.
 
     <qresource prefix="/translations">
-        <file alias="en">locale/paycoin_en.qm</file>
+        <file alias="en">locale/Suck-a-Coin_en.qm</file>
         ...
     </qresource>
 
@@ -26,17 +26,17 @@ files must end with `.qm`, not `.ts`.
 
 This directory contains all translations. Filenames must adhere to this format:
 
-    paycoin_xx_YY.ts or paycoin_xx.ts
+    Suck-a-Coin_xx_YY.ts or Suck-a-Coin_xx.ts
 
-#### paycoin_en.ts (Source file)
+#### Suck-a-Coin_en.ts (Source file)
 
-`src/qt/locale/paycoin_en.ts` is treated in a special way. It is used as the
+`src/qt/locale/Suck-a-Coin_en.ts` is treated in a special way. It is used as the
 source for all other translations. Whenever a string in the code is changed
 this file must be updated to reflect those changes. A  custom script is used
 to extract strings from the non-Qt parts. This script makes use of `gettext`,
 so make sure that utility is installed (ie, `apt-get install gettext` on
 Ubuntu/Debian). Once this has been updated, lupdate (included in the Qt SDK)
-is used to update paycoin_en.ts. This process has been automated, from src/qt,
+is used to update Suck-a-Coin_en.ts. This process has been automated, from src/qt,
 simply run:
     make translate
 
@@ -44,7 +44,7 @@ simply run:
 
 When new plurals are added to the source file, it's important to do the following steps:
 
-1. Open paycoin_en.ts in Qt Linguist (also included in the Qt SDK)
+1. Open Suck-a-Coin_en.ts in Qt Linguist (also included in the Qt SDK)
 2. Search for `%n`, which will take you to the parts in the translation that use plurals
 3. Look for empty `English Translation (Singular)` and `English Translation (Plural)` fields
 4. Add the appropriate strings for the singular and plural form of the base string
@@ -60,7 +60,7 @@ in Transifex and can be translated.
 
 To create the pull-request you have to do:
 
-    git add src/qt/bitcoinstrings.cpp src/qt/locale/paycoin_en.ts
+    git add src/qt/bitcoinstrings.cpp src/qt/locale/Suck-a-Coin_en.ts
     git commit
 
 Syncing with Transifex
@@ -68,7 +68,7 @@ Syncing with Transifex
 
 We are using https://transifex.com as a frontend for translating the client.
 
-https://www.transifex.com/paycoin/paycoin/qt-translation-03x/
+https://www.transifex.com/Suck-a-Coin/Suck-a-Coin/qt-translation-03x/
 
 The "Transifex client" (see: http://support.transifex.com/customer/portal/topics/440187-transifex-client/articles)
 is used to fetch new translations from Transifex. The configuration for this client (`.tx/config`)
@@ -81,5 +81,5 @@ postprocessing steps before committing the translations.
 
 1. `python contrib/devtools/update-translations.py`
 2. update `src/qt/bitcoin.qrc` manually or via
-   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(paycoin_\(.*\)\).ts/<file alias="\2">locale\/\1.qm<\/file>/'`
+   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(Suck-a-Coin_\(.*\)\).ts/<file alias="\2">locale\/\1.qm<\/file>/'`
 3. `git add` new translations from `src/qt/locale/`

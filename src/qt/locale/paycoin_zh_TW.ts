@@ -1056,8 +1056,8 @@ Address: %4
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>指定行程識別碼檔案 (預設: paycoind.pid)
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>指定行程識別碼檔案 (預設: Suck-a-Coind.pid)
 </translation>
     </message>
     <message>

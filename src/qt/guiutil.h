@@ -22,7 +22,7 @@ namespace GUIUtil
     QString dateTimeStr(const QDateTime &datetime);
     QString dateTimeStr(qint64 nTime);
 
-    // Render Paycoin addresses in monospace font
+    // Render Suck-a-Coin addresses in monospace font
     QFont bitcoinAddressFont();
 
     // Set up widgets for address and amounts

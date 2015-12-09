@@ -1,26 +1,26 @@
 Test Report: Coin Control
 ===================================================
 
-This report covers test results of the coin control feature of Paycoin v0.4.0 released [here](http://www.paycointalk.org/index.php?topic=2648.msg23426#msg23426). The tests are done on windows 7 professional 32bit. Paycoin distribution paycoin-rc.zip is downloaded and unzip'ped in D:\bin
+This report covers test results of the coin control feature of Suck-a-Coin v0.4.0 released [here](http://www.Suck-a-Cointalk.org/index.php?topic=2648.msg23426#msg23426). The tests are done on windows 7 professional 32bit. Suck-a-Coin distribution Suck-a-Coin-rc.zip is downloaded and unzip'ped in D:\bin
 
 ## Basic features
 
-The test method used is basically clicking/typing on the GUI of Paycoin running on Paycoin testnet, and comparing the results with those specified in [_Yet another Coin Control Release_ by cozz](https://bitcointalk.org/index.php?topic=144331.0).
+The test method used is basically clicking/typing on the GUI of Suck-a-Coin running on Suck-a-Coin testnet, and comparing the results with those specified in [_Yet another Coin Control Release_ by cozz](https://bitcointalk.org/index.php?topic=144331.0).
 
 There are three addresses with initial balance used in the test, 
 * test1  mkLh7wYGYQiKVm8tLwCs9LusKF2y1gffm9  8.01PPC 
 * test2  n2LzA1UH46QZPdCGvN2NorPeqg1BbTuw4g  2PPC
 * test3  mpRAV4VSsxmKh5nRpDuQPquhdHPKu4xUuS  7PPC
 
-### start paycoin
+### start Suck-a-Coin
 
-* Run paycoin with a bat file that has the command
+* Run Suck-a-Coin with a bat file that has the command
 ```
-D:\bin\paycoin-rc\paycoin-rc-qt -conf=D:\bin\paycoin-rc\paycoin.conf
+D:\bin\Suck-a-Coin-rc\Suck-a-Coin-rc-qt -conf=D:\bin\Suck-a-Coin-rc\Suck-a-Coin.conf
 ```
-The config file D:\bin\paycoin-rc\paycoin.conf contains
+The config file D:\bin\Suck-a-Coin-rc\Suck-a-Coin.conf contains
 ```
-datadir=D:\bin\paycoin-rc
+datadir=D:\bin\Suck-a-Coin-rc
 testnet=1
 server=1
 rpcuser=mh
@@ -31,8 +31,8 @@ daemon=1
 ```
 (Note for future upgrade: with 0.9.1 btc wallet, datadir must be specified in the command line, not in the config file.)
 
-* After paycoin-rc is started, in the debug->Information the "On testnet" box is in checked as expected. 
-* peerunit-rc successfully syncs with the testnet. "D:\bin\paycoin-rc\testnet" subdirectory is created with downloaded block chain.
+* After Suck-a-Coin-rc is started, in the debug->Information the "On testnet" box is in checked as expected. 
+* peerunit-rc successfully syncs with the testnet. "D:\bin\Suck-a-Coin-rc\testnet" subdirectory is created with downloaded block chain.
 
 ### start coin control
 
@@ -80,7 +80,7 @@ Note for the last item: the tooltip not only shows in list mode but also in tree
 >  * Context menu  
 >    Copy to clipboard (amount,label,address,transaction id,lock,unlock)
 
-* These labels are tested **except that priorities are not verified because I do not know how priority levels for Paycoins and Peershares are defined**. 
+* These labels are tested **except that priorities are not verified because I do not know how priority levels for Suck-a-Coins and Peershares are defined**. 
 
 >  * Labels at the top  
 >    Quantity: number of selected outputs  
@@ -122,7 +122,7 @@ Low Output is yes when the amount is less than 0.01 PPC.
 > Due to the inner workings of bitcoin the size per output is actually +/- 1 byte. Meaning the shown calculation is not always 100% correct.  
 > If you send exactly "selected minus fee" then you will not have change (1 output only). The transaction will then be 34 bytes smaller as what was calculated before.
 
-* Paycoin has a fixed transaction fee so this part below about free transaction calculation is irrelevant hence not tested. 
+* Suck-a-Coin has a fixed transaction fee so this part below about free transaction calculation is irrelevant hence not tested. 
 
 > **Free Transactions**  
 > In order to be able to send a free transaction, you need to follow the rules:  
@@ -143,10 +143,10 @@ Low Output is yes when the amount is less than 0.01 PPC.
 > graying-out (checkbox can't be ticked) and setting a red background of immature PoS coins in the Coin Control view.
 
 ## Summary
-The coin control implmented in paycoin-rc passed tests of all main function items [specified by cozz](https://bitcointalk.org/index.php?topic=144331.0). One minor item that did not pass, and two minor untested items, are marked in bold above.
+The coin control implmented in Suck-a-Coin-rc passed tests of all main function items [specified by cozz](https://bitcointalk.org/index.php?topic=144331.0). One minor item that did not pass, and two minor untested items, are marked in bold above.
 
 ## History
-Test reprt for an early build of paycoin_coin-control is [here](http://www.paycointalk.org/index.php?topic=2699.msg23386#msg23386).
+Test reprt for an early build of Suck-a-Coin_coin-control is [here](http://www.Suck-a-Cointalk.org/index.php?topic=2699.msg23386#msg23386).
 
 mhps
 2014-04-29

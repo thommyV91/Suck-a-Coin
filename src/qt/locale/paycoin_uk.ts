@@ -1017,8 +1017,8 @@ Address: %4
 </translation>
     </message>
     <message>
-        <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Вкажіть pid-файл (за промовчуванням: paycoind.pid)
+        <source>Specify pid file (default: Suck-a-Coind.pid)</source>
+        <translation>Вкажіть pid-файл (за промовчуванням: Suck-a-Coind.pid)
 </translation>
     </message>
     <message>

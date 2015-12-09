@@ -413,7 +413,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Paycoins</translation>
+        <translation>Poslať Suck-a-Coins</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -457,7 +457,7 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie Paycoins</translation>
+        <translation>Potvrdiť odoslanie Suck-a-Coins</translation>
     </message>
     <message>
         <source>Are you sure you want to send %1?</source>

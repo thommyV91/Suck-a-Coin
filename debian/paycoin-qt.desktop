@@ -1,10 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Paycoin
-Comment=Paycoin
-Exec=/usr/bin/paycoin-qt %u
+Name=Suck-a-Coin
+Comment=Suck-a-Coin
+Exec=/usr/bin/Suck-a-Coin-qt %u
 Terminal=false
 Type=Application
-Icon=paycoin
-MimeType=x-scheme-handler/paycoin;
+Icon=Suck-a-Coin
+MimeType=x-scheme-handler/Suck-a-Coin;
 Categories=Office;

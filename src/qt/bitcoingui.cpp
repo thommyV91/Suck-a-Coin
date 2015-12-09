@@ -1,9 +1,9 @@
 /*
- * Qt4 paycoin GUI.
+ * Qt4 Suck-a-Coin GUI.
  *
  * W.J. van der Laan 2011-2012
  * The Bitcoin Developers 2011-2012
- * The Paycoin Developers 2011-2013
+ * The Suck-a-Coin Developers 2011-2013
  */
 #include "bitcoingui.h"
 #include "transactiontablemodel.h"
@@ -75,9 +75,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     spinnerFrame(0)
 {
     resize(850, 550);
-    setWindowTitle(tr("Paycoin Wallet"));
+    setWindowTitle(tr("Suck-a-Coin Wallet"));
 #ifndef Q_OS_MAC
-    setWindowIcon(QIcon(":icons/paycoin_icon"));
+    setWindowIcon(QIcon(":icons/Suck-a-Coin_icon"));
 #else
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
@@ -231,7 +231,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a Paycoin address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a Suck-a-Coin address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -267,17 +267,17 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/paycoin_tooltip"), tr("&About Paycoin"), this);
-    aboutAction->setToolTip(tr("Show information about Paycoin"));
+    aboutAction = new QAction(QIcon(":/icons/Suck-a-Coin_tooltip"), tr("&About Suck-a-Coin"), this);
+    aboutAction->setToolTip(tr("Show information about Suck-a-Coin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for Paycoin"));
+    optionsAction->setToolTip(tr("Modify configuration options for Suck-a-Coin"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
-    toggleHideAction = new QAction(QIcon(":/icons/paycoin_tooltip"), tr("Show/Hide &Paycoin"), this);
-    toggleHideAction->setToolTip(tr("Show or hide the Paycoin window"));
+    toggleHideAction = new QAction(QIcon(":/icons/Suck-a-Coin_tooltip"), tr("Show/Hide &Suck-a-Coin"), this);
+    toggleHideAction->setToolTip(tr("Show or hide the Suck-a-Coin window"));
     exportAction = new QAction(QIcon(":/icons/export"), tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
@@ -368,14 +368,14 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
             QString title_testnet = windowTitle() + QString(" ") + tr("[testnet]");
             setWindowTitle(title_testnet);
 #ifndef Q_OS_MAC
-            setWindowIcon(QIcon(":icons/paycoin_icon"));
+            setWindowIcon(QIcon(":icons/Suck-a-Coin_icon"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/paycoin_icon"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/Suck-a-Coin_icon"));
 #endif
             if(trayIcon)
             {
                 trayIcon->setToolTip(title_testnet);
-                trayIcon->setIcon(QIcon(":/icons/paycoin_tooltip"));
+                trayIcon->setIcon(QIcon(":/icons/Suck-a-Coin_tooltip"));
             }
         }
 
@@ -431,8 +431,8 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("Paycoin client"));
-    trayIcon->setIcon(QIcon(":/icons/paycoin_tooltip"));
+    trayIcon->setToolTip(tr("Suck-a-Coin client"));
+    trayIcon->setIcon(QIcon(":/icons/Suck-a-Coin_tooltip"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
     trayIcon->show();
@@ -469,7 +469,7 @@ void BitcoinGUI::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
 {
     if(reason == QSystemTrayIcon::Trigger)
     {
-        // Click on system tray icon triggers "show/hide Paycoin"
+        // Click on system tray icon triggers "show/hide Suck-a-Coin"
         toggleHideAction->trigger();
     }
 }
@@ -503,7 +503,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Paycoin network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Suck-a-Coin network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)

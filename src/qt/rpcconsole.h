@@ -8,7 +8,7 @@ namespace Ui {
 }
 class ClientModel;
 
-/** Local Paycoin RPC console. */
+/** Local Suck-a-Coin RPC console. */
 class RPCConsole: public QDialog
 {
     Q_OBJECT
